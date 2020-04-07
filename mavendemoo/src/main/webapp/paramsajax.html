@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>演示各种ajax参数提交的情况</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<button onclick="test1()">普通对象GET提交</button>
+<button onclick="test2()">普通对象POST提交</button>
+<button onclick="test3()">JSON对象序列化为String提交</button>
+<script type="text/javascript">
+/**
+ * 测试以json对象的方式提交数据servlet如何处理
+ */
+function test1(){
+	var dataUser={
+			username:"张三",
+			age:10
+	}
+	$.ajax({
+		url:"param2",
+		type:"get",
+		data:dataUser,
+		dataType:"text",//返回的内容jq如何对待,这是表示不做处理
+		success:function(data){
+			alert(data);
+		}
+	});
+
+}
+
+function test2(){
+	var dataUser={
+			username:"张三",
+			age:10
+	}
+	$.ajax({
+		url:"param2",
+		type:"post",
+		data:dataUser,
+		dataType:"text",//返回的内容jq如何对待,这是表示不做处理
+		success:function(data){
+			alert(data);
+		}
+	});
+	
+	
+	
+
+}
+/**
+ * 当我们直接将ajax序列化为string的数据提交，servlet需要特殊处理
+ */
+function test3(){
+	var dataUser={
+			username:"张三",
+			age:10
+	}
+	$.ajax({
+		url:"param3",
+		type:"post",
+		contentType:"application/json",
+		data:JSON.stringify(dataUser),
+		dataType:"text",//返回的内容jq如何对待,这是表示不做处理
+		success:function(data){
+			alert(data);
+		}
+	});
+}
+</script>
+</body>
+</html>
