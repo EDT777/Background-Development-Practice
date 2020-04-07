@@ -1,0 +1,1809 @@
+2020-02-25 13:10:05 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 13:10:05 -Initializing Servlet 'dispatcherServlet'
+2020-02-25 13:10:05 -Completed initialization in 14 ms
+2020-02-25 15:46:00 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:46:00 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:46:00 -No active profile set, falling back to default profiles: default
+2020-02-25 15:46:01 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:46:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:46:01 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-25 15:46:01 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:46:01 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:46:01 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:46:01 -Starting service [Tomcat]
+2020-02-25 15:46:01 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:46:01 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:46:01 -Root WebApplicationContext: initialization completed in 618 ms
+2020-02-25 15:46:01 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:46:01 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:46:02 -LiveReload server is running on port 35729
+2020-02-25 15:46:02 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:46:02 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:46:02 -Started Eshop1Application in 1.239 seconds (JVM running for 79803.532)
+2020-02-25 15:46:02 -Condition evaluation unchanged
+2020-02-25 15:46:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:46:13 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:46:13 -No active profile set, falling back to default profiles: default
+2020-02-25 15:46:13 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:46:13 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:46:13 -Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-02-25 15:46:13 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:46:14 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:46:14 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:46:14 -Starting service [Tomcat]
+2020-02-25 15:46:14 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:46:14 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:46:14 -Root WebApplicationContext: initialization completed in 407 ms
+2020-02-25 15:46:14 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:46:14 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:46:14 -LiveReload server is running on port 35729
+2020-02-25 15:46:14 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:46:14 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:46:14 -Started Eshop1Application in 1.042 seconds (JVM running for 79816.122)
+2020-02-25 15:46:14 -Condition evaluation unchanged
+2020-02-25 15:50:57 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:50:57 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:50:57 -No active profile set, falling back to default profiles: default
+2020-02-25 15:50:57 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:50:57 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:50:57 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-25 15:50:57 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:50:57 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:50:57 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:50:57 -Starting service [Tomcat]
+2020-02-25 15:50:57 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:50:57 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:50:57 -Root WebApplicationContext: initialization completed in 332 ms
+2020-02-25 15:50:58 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:50:58 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:50:58 -LiveReload server is running on port 35729
+2020-02-25 15:50:58 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:50:58 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:50:58 -Started Eshop1Application in 1.256 seconds (JVM running for 80100.299)
+2020-02-25 15:50:58 -Condition evaluation unchanged
+2020-02-25 15:52:31 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:52:31 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:52:31 -No active profile set, falling back to default profiles: default
+2020-02-25 15:52:32 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:52:32 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:52:32 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-25 15:52:32 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:52:32 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:52:32 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:52:32 -Starting service [Tomcat]
+2020-02-25 15:52:32 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:52:32 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:52:32 -Root WebApplicationContext: initialization completed in 327 ms
+2020-02-25 15:52:32 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:52:32 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:52:32 -LiveReload server is running on port 35729
+2020-02-25 15:52:32 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:52:32 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:52:32 -Started Eshop1Application in 0.745 seconds (JVM running for 80194.127)
+2020-02-25 15:52:32 -Condition evaluation unchanged
+2020-02-25 15:53:00 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:53:01 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:53:01 -No active profile set, falling back to default profiles: default
+2020-02-25 15:53:01 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:53:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:53:01 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-25 15:53:01 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:53:01 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:53:01 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:53:01 -Starting service [Tomcat]
+2020-02-25 15:53:01 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:53:01 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:53:01 -Root WebApplicationContext: initialization completed in 400 ms
+2020-02-25 15:53:02 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:53:02 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:53:02 -LiveReload server is running on port 35729
+2020-02-25 15:53:02 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:53:02 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:53:02 -Started Eshop1Application in 0.9 seconds (JVM running for 80223.608)
+2020-02-25 15:53:02 -Condition evaluation unchanged
+2020-02-25 15:59:11 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:59:11 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 15:59:11 -No active profile set, falling back to default profiles: default
+2020-02-25 15:59:11 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 15:59:11 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 15:59:11 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-25 15:59:11 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 15:59:12 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 15:59:12 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 15:59:12 -Starting service [Tomcat]
+2020-02-25 15:59:12 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 15:59:12 -Initializing Spring embedded WebApplicationContext
+2020-02-25 15:59:12 -Root WebApplicationContext: initialization completed in 331 ms
+2020-02-25 15:59:12 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 15:59:12 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 15:59:12 -LiveReload server is running on port 35729
+2020-02-25 15:59:12 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 15:59:12 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 15:59:12 -Started Eshop1Application in 0.831 seconds (JVM running for 80593.993)
+2020-02-25 15:59:12 -Condition evaluation unchanged
+2020-02-25 16:06:23 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:06:23 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:06:23 -No active profile set, falling back to default profiles: default
+2020-02-25 16:06:23 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:06:23 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:06:23 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-25 16:06:23 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:06:23 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:06:23 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:06:23 -Starting service [Tomcat]
+2020-02-25 16:06:23 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:06:23 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:06:23 -Root WebApplicationContext: initialization completed in 356 ms
+2020-02-25 16:06:24 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:06:24 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:06:24 -LiveReload server is running on port 35729
+2020-02-25 16:06:24 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:06:24 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:06:24 -Started Eshop1Application in 0.768 seconds (JVM running for 81025.655)
+2020-02-25 16:06:24 -Condition evaluation unchanged
+2020-02-25 16:07:37 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:07:37 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:07:37 -No active profile set, falling back to default profiles: default
+2020-02-25 16:07:37 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:07:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:07:37 -Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-02-25 16:07:38 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:07:38 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:07:38 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:07:38 -Starting service [Tomcat]
+2020-02-25 16:07:38 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:07:38 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:07:38 -Root WebApplicationContext: initialization completed in 368 ms
+2020-02-25 16:07:38 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:07:38 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:07:38 -LiveReload server is running on port 35729
+2020-02-25 16:07:38 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:07:38 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:07:38 -Started Eshop1Application in 0.742 seconds (JVM running for 81099.9)
+2020-02-25 16:07:38 -Condition evaluation unchanged
+2020-02-25 16:09:59 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:09:59 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:09:59 -No active profile set, falling back to default profiles: default
+2020-02-25 16:10:00 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:10:00 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:10:00 -Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-02-25 16:10:00 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:10:00 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:10:00 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:10:00 -Starting service [Tomcat]
+2020-02-25 16:10:00 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:10:00 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:10:00 -Root WebApplicationContext: initialization completed in 385 ms
+2020-02-25 16:10:00 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:10:00 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:10:00 -LiveReload server is running on port 35729
+2020-02-25 16:10:00 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:10:00 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:10:00 -Started Eshop1Application in 0.864 seconds (JVM running for 81242.148)
+2020-02-25 16:10:00 -Condition evaluation unchanged
+2020-02-25 16:10:35 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:10:35 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:10:35 -No active profile set, falling back to default profiles: default
+2020-02-25 16:10:36 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:10:36 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:10:36 -Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-02-25 16:10:36 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:10:36 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:10:36 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:10:36 -Starting service [Tomcat]
+2020-02-25 16:10:36 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:10:36 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:10:36 -Root WebApplicationContext: initialization completed in 646 ms
+2020-02-25 16:10:36 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:10:36 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:10:37 -LiveReload server is running on port 35729
+2020-02-25 16:10:37 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:10:37 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:10:37 -Started Eshop1Application in 1.249 seconds (JVM running for 81278.56)
+2020-02-25 16:10:37 -Condition evaluation unchanged
+2020-02-25 16:11:21 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:11:21 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:11:21 -No active profile set, falling back to default profiles: default
+2020-02-25 16:11:22 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:11:22 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:11:22 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-25 16:11:22 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:11:22 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:11:22 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:11:22 -Starting service [Tomcat]
+2020-02-25 16:11:22 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:11:22 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:11:22 -Root WebApplicationContext: initialization completed in 412 ms
+2020-02-25 16:11:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:11:22 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:11:22 -LiveReload server is running on port 35729
+2020-02-25 16:11:22 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:11:22 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:11:22 -Started Eshop1Application in 0.786 seconds (JVM running for 81324.09)
+2020-02-25 16:11:22 -Condition evaluation unchanged
+2020-02-25 16:12:33 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:12:34 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:12:34 -No active profile set, falling back to default profiles: default
+2020-02-25 16:12:34 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:12:34 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:12:34 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-25 16:12:34 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:12:34 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:12:34 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:12:34 -Starting service [Tomcat]
+2020-02-25 16:12:34 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:12:34 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:12:34 -Root WebApplicationContext: initialization completed in 396 ms
+2020-02-25 16:12:34 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:12:34 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:12:34 -LiveReload server is running on port 35729
+2020-02-25 16:12:34 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:12:34 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:12:34 -Started Eshop1Application in 0.789 seconds (JVM running for 81396.237)
+2020-02-25 16:12:34 -Condition evaluation unchanged
+2020-02-25 16:12:42 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:12:43 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:12:43 -No active profile set, falling back to default profiles: default
+2020-02-25 16:12:43 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:12:43 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:12:43 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-25 16:12:43 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:12:43 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:12:43 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:12:43 -Starting service [Tomcat]
+2020-02-25 16:12:43 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:12:43 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:12:43 -Root WebApplicationContext: initialization completed in 337 ms
+2020-02-25 16:12:43 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:12:43 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:12:43 -LiveReload server is running on port 35729
+2020-02-25 16:12:43 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:12:43 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:12:43 -Started Eshop1Application in 0.76 seconds (JVM running for 81405.286)
+2020-02-25 16:12:43 -Condition evaluation unchanged
+2020-02-25 16:13:28 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:13:28 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:13:28 -No active profile set, falling back to default profiles: default
+2020-02-25 16:13:28 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:13:28 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:13:28 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-25 16:13:28 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:13:28 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:13:28 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:13:28 -Starting service [Tomcat]
+2020-02-25 16:13:28 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:13:28 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:13:28 -Root WebApplicationContext: initialization completed in 357 ms
+2020-02-25 16:13:29 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:13:29 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:13:29 -LiveReload server is running on port 35729
+2020-02-25 16:13:29 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:13:29 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:13:29 -Started Eshop1Application in 0.751 seconds (JVM running for 81450.647)
+2020-02-25 16:13:29 -Condition evaluation unchanged
+2020-02-25 16:15:30 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:15:30 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 11792 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 16:15:30 -No active profile set, falling back to default profiles: default
+2020-02-25 16:15:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 16:15:30 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 16:15:30 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-02-25 16:15:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 16:15:30 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 16:15:30 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 16:15:30 -Starting service [Tomcat]
+2020-02-25 16:15:30 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 16:15:30 -Initializing Spring embedded WebApplicationContext
+2020-02-25 16:15:30 -Root WebApplicationContext: initialization completed in 418 ms
+2020-02-25 16:15:31 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 16:15:31 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 16:15:31 -LiveReload server is running on port 35729
+2020-02-25 16:15:31 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 16:15:31 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 16:15:31 -Started Eshop1Application in 0.856 seconds (JVM running for 81572.78)
+2020-02-25 16:15:31 -Condition evaluation unchanged
+2020-02-25 20:00:00 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 24404 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:00:00 -No active profile set, falling back to default profiles: default
+2020-02-25 20:00:00 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 20:00:00 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 20:00:01 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:00:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:00:01 -Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-02-25 20:00:01 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:00:02 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:00:02 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:00:02 -Starting service [Tomcat]
+2020-02-25 20:00:02 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:00:02 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:00:02 -Root WebApplicationContext: initialization completed in 2211 ms
+2020-02-25 20:00:03 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:00:03 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 20:00:04 -LiveReload server is running on port 35729
+2020-02-25 20:00:04 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 20:00:04 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 20:00:04 -Started Eshop1Application in 4.844 seconds (JVM running for 5.393)
+2020-02-25 20:44:20 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:44:25 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 22340 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:44:25 -No active profile set, falling back to default profiles: default
+2020-02-25 20:44:25 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 20:44:25 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 20:44:26 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:44:26 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:44:26 -Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-02-25 20:44:26 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:44:27 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:44:27 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:44:27 -Starting service [Tomcat]
+2020-02-25 20:44:27 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:44:27 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:44:27 -Root WebApplicationContext: initialization completed in 2331 ms
+2020-02-25 20:44:28 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:44:28 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 20:44:29 -LiveReload server is running on port 35729
+2020-02-25 20:44:29 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 20:44:29 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 20:44:29 -Started Eshop1Application in 4.487 seconds (JVM running for 5.077)
+2020-02-25 20:45:11 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 20:45:11 -Initializing Servlet 'dispatcherServlet'
+2020-02-25 20:45:11 -Completed initialization in 6 ms
+2020-02-25 20:48:06 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:48:12 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:50:08 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:50:12 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:51:24 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:51:25 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:51:28 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 20:53:00 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:53:01 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 22340 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:53:01 -No active profile set, falling back to default profiles: default
+2020-02-25 20:53:01 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:53:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:53:01 -Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-02-25 20:53:01 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$1222ec68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:01 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:02 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:02 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:53:02 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:02 -Starting service [Tomcat]
+2020-02-25 20:53:02 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:53:02 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:53:02 -Root WebApplicationContext: initialization completed in 1161 ms
+2020-02-25 20:53:02 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 20:53:02 -Stopping service [Tomcat]
+2020-02-25 20:53:02 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 20:53:02 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 20:53:02 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 20:53:24 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 22396 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:53:24 -No active profile set, falling back to default profiles: default
+2020-02-25 20:53:24 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 20:53:24 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 20:53:25 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:53:25 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:53:25 -Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2020-02-25 20:53:26 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$86362697] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:26 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:26 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:27 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:53:27 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:27 -Starting service [Tomcat]
+2020-02-25 20:53:27 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:53:27 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:53:27 -Root WebApplicationContext: initialization completed in 2819 ms
+2020-02-25 20:53:27 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 20:53:27 -Stopping service [Tomcat]
+2020-02-25 20:53:27 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 20:53:27 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 20:53:27 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 20:53:38 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:53:38 -No active profile set, falling back to default profiles: default
+2020-02-25 20:53:38 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 20:53:38 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 20:53:38 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:53:38 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:53:38 -Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-02-25 20:53:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:39 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:53:39 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:39 -Starting service [Tomcat]
+2020-02-25 20:53:39 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:53:39 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:53:39 -Root WebApplicationContext: initialization completed in 1698 ms
+2020-02-25 20:53:40 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:53:40 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 20:53:41 -LiveReload server is running on port 35729
+2020-02-25 20:53:41 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:41 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 20:53:41 -Started Eshop1Application in 3.517 seconds (JVM running for 4.03)
+2020-02-25 20:53:56 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:53:56 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:53:56 -No active profile set, falling back to default profiles: default
+2020-02-25 20:53:57 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:53:57 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:53:57 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-02-25 20:53:57 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:53:57 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:53:57 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:57 -Starting service [Tomcat]
+2020-02-25 20:53:57 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:53:57 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:53:57 -Root WebApplicationContext: initialization completed in 582 ms
+2020-02-25 20:53:58 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:53:58 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 20:53:58 -LiveReload server is running on port 35729
+2020-02-25 20:53:58 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 20:53:58 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 20:53:58 -Started Eshop1Application in 1.411 seconds (JVM running for 21.207)
+2020-02-25 20:53:58 -Condition evaluation unchanged
+2020-02-25 20:53:58 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 20:53:58 -Initializing Servlet 'dispatcherServlet'
+2020-02-25 20:53:58 -Completed initialization in 16 ms
+2020-02-25 20:58:29 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:58:29 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 20:58:29 -No active profile set, falling back to default profiles: default
+2020-02-25 20:58:29 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 20:58:29 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 20:58:29 -Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-02-25 20:58:29 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:58:30 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 20:58:30 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 20:58:30 -Starting service [Tomcat]
+2020-02-25 20:58:30 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 20:58:30 -Initializing Spring embedded WebApplicationContext
+2020-02-25 20:58:30 -Root WebApplicationContext: initialization completed in 575 ms
+2020-02-25 20:58:30 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:58:30 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 20:58:30 -LiveReload server is running on port 35729
+2020-02-25 20:58:30 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 20:58:30 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 20:58:30 -Started Eshop1Application in 1.105 seconds (JVM running for 293.487)
+2020-02-25 20:58:30 -Condition evaluation unchanged
+2020-02-25 21:01:29 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:01:29 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:01:29 -No active profile set, falling back to default profiles: default
+2020-02-25 21:01:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:01:30 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:01:30 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-02-25 21:01:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:01:30 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:01:30 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:01:30 -Starting service [Tomcat]
+2020-02-25 21:01:30 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:01:30 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:01:30 -Root WebApplicationContext: initialization completed in 628 ms
+2020-02-25 21:01:30 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:01:30 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:01:30 -LiveReload server is running on port 35729
+2020-02-25 21:01:30 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:01:30 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:01:30 -Started Eshop1Application in 1.202 seconds (JVM running for 473.881)
+2020-02-25 21:01:30 -Condition evaluation unchanged
+2020-02-25 21:01:36 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:01:37 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:01:37 -No active profile set, falling back to default profiles: default
+2020-02-25 21:01:37 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:01:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:01:37 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-25 21:01:37 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:01:37 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:01:37 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:01:37 -Starting service [Tomcat]
+2020-02-25 21:01:37 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:01:37 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:01:37 -Root WebApplicationContext: initialization completed in 616 ms
+2020-02-25 21:01:38 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:01:38 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:01:38 -LiveReload server is running on port 35729
+2020-02-25 21:01:38 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:01:38 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:01:38 -Started Eshop1Application in 1.244 seconds (JVM running for 481.275)
+2020-02-25 21:01:38 -Condition evaluation unchanged
+2020-02-25 21:02:58 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:02:58 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:02:58 -No active profile set, falling back to default profiles: default
+2020-02-25 21:02:58 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:02:58 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:02:58 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-25 21:02:58 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:02:59 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:02:59 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:02:59 -Starting service [Tomcat]
+2020-02-25 21:02:59 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:02:59 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:02:59 -Root WebApplicationContext: initialization completed in 363 ms
+2020-02-25 21:02:59 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:02:59 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:02:59 -LiveReload server is running on port 35729
+2020-02-25 21:02:59 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:02:59 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:02:59 -Started Eshop1Application in 0.743 seconds (JVM running for 562.294)
+2020-02-25 21:02:59 -Condition evaluation unchanged
+2020-02-25 21:04:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 21:04:37 -Initializing Servlet 'dispatcherServlet'
+2020-02-25 21:04:37 -Completed initialization in 4 ms
+2020-02-25 21:04:37 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 21:05:38 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:05:38 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:05:38 -No active profile set, falling back to default profiles: default
+2020-02-25 21:05:38 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:05:38 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:05:38 -Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-02-25 21:05:38 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:05:38 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:05:38 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:05:38 -Starting service [Tomcat]
+2020-02-25 21:05:38 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:05:38 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:05:38 -Root WebApplicationContext: initialization completed in 447 ms
+2020-02-25 21:05:39 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:05:39 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:05:39 -LiveReload server is running on port 35729
+2020-02-25 21:05:39 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:05:39 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:05:39 -Started Eshop1Application in 0.937 seconds (JVM running for 722.245)
+2020-02-25 21:05:39 -Condition evaluation unchanged
+2020-02-25 21:05:48 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:05:48 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:05:48 -No active profile set, falling back to default profiles: default
+2020-02-25 21:05:48 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:05:48 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:05:48 -Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-02-25 21:05:48 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:05:49 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:05:49 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:05:49 -Starting service [Tomcat]
+2020-02-25 21:05:49 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:05:49 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:05:49 -Root WebApplicationContext: initialization completed in 404 ms
+2020-02-25 21:05:49 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:05:49 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:05:49 -LiveReload server is running on port 35729
+2020-02-25 21:05:49 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:05:49 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:05:49 -Started Eshop1Application in 0.815 seconds (JVM running for 732.342)
+2020-02-25 21:05:49 -Condition evaluation unchanged
+2020-02-25 21:08:53 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:08:53 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:08:53 -No active profile set, falling back to default profiles: default
+2020-02-25 21:08:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:08:53 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:08:53 -Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-02-25 21:08:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:08:53 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:08:53 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:08:53 -Starting service [Tomcat]
+2020-02-25 21:08:53 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:08:53 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:08:53 -Root WebApplicationContext: initialization completed in 500 ms
+2020-02-25 21:08:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:08:54 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:08:54 -LiveReload server is running on port 35729
+2020-02-25 21:08:54 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:08:54 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:08:54 -Started Eshop1Application in 1.135 seconds (JVM running for 917.481)
+2020-02-25 21:08:54 -Condition evaluation unchanged
+2020-02-25 21:09:10 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:09:10 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:09:10 -No active profile set, falling back to default profiles: default
+2020-02-25 21:09:10 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:09:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:09:10 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-25 21:09:10 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ccfbd7bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:09:10 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:09:11 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:09:11 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:09:11 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:09:11 -Starting service [Tomcat]
+2020-02-25 21:09:11 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:09:11 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:09:11 -Root WebApplicationContext: initialization completed in 854 ms
+2020-02-25 21:09:11 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:09:11 -Stopping service [Tomcat]
+2020-02-25 21:09:11 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:09:11 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:09:11 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 21:12:45 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 14972 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:12:45 -No active profile set, falling back to default profiles: default
+2020-02-25 21:12:45 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 21:12:45 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 21:12:46 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:12:46 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:12:46 -Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-02-25 21:12:46 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$c37327bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:12:46 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:12:47 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:12:47 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:12:48 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:12:48 -Starting service [Tomcat]
+2020-02-25 21:12:48 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:12:48 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:12:48 -Root WebApplicationContext: initialization completed in 2294 ms
+2020-02-25 21:12:48 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:12:48 -Stopping service [Tomcat]
+2020-02-25 21:12:48 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:12:48 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:12:48 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 21:19:17 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 8432 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:19:17 -No active profile set, falling back to default profiles: default
+2020-02-25 21:19:17 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 21:19:17 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 21:19:18 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:19:18 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:19:18 -Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-02-25 21:19:18 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$e872f7a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:19:18 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:19:19 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:19:19 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:19:19 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:19:19 -Starting service [Tomcat]
+2020-02-25 21:19:19 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:19:19 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:19:19 -Root WebApplicationContext: initialization completed in 2068 ms
+2020-02-25 21:19:19 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:19:19 -Stopping service [Tomcat]
+2020-02-25 21:19:19 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:19:19 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:19:19 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 21:20:50 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 10024 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:20:50 -No active profile set, falling back to default profiles: default
+2020-02-25 21:20:50 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 21:20:50 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 21:20:50 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:20:50 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:20:51 -Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-02-25 21:20:51 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab65c4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:20:51 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:20:52 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:20:52 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:20:52 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:20:52 -Starting service [Tomcat]
+2020-02-25 21:20:52 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:20:52 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:20:52 -Root WebApplicationContext: initialization completed in 2265 ms
+2020-02-25 21:20:52 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:20:52 -Stopping service [Tomcat]
+2020-02-25 21:20:52 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:20:52 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:20:52 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 21:22:50 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:22:50 -No active profile set, falling back to default profiles: default
+2020-02-25 21:22:50 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 21:22:50 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 21:22:51 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:22:51 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:22:51 -Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-02-25 21:22:52 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:22:53 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:22:53 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:22:53 -Starting service [Tomcat]
+2020-02-25 21:22:53 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:22:53 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:22:53 -Root WebApplicationContext: initialization completed in 2720 ms
+2020-02-25 21:22:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:22:54 -Adding welcome page: class path resource [static/index.html]
+2020-02-25 21:22:55 -LiveReload server is running on port 35729
+2020-02-25 21:22:55 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-25 21:22:55 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-25 21:22:55 -Started Eshop1Application in 5.707 seconds (JVM running for 6.692)
+2020-02-25 21:23:02 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 21:23:02 -Initializing Servlet 'dispatcherServlet'
+2020-02-25 21:23:02 -Completed initialization in 7 ms
+2020-02-25 21:23:13 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.octopus.common.controller.LoginController.doLogin(LoginController.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 21:23:23 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:23:24 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 9976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:23:24 -No active profile set, falling back to default profiles: default
+2020-02-25 21:23:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:23:24 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:23:24 -Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-02-25 21:23:24 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$f6aae88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:23:24 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:23:25 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:23:25 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:23:25 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:23:25 -Starting service [Tomcat]
+2020-02-25 21:23:25 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:23:25 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:23:25 -Root WebApplicationContext: initialization completed in 1077 ms
+2020-02-25 21:23:25 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:23:25 -Stopping service [Tomcat]
+2020-02-25 21:23:25 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:23:25 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:23:25 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted
+2020-02-25 21:24:04 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 16868 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-25 21:24:04 -No active profile set, falling back to default profiles: default
+2020-02-25 21:24:04 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-25 21:24:04 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-25 21:24:05 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-25 21:24:05 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-25 21:24:05 -Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-02-25 21:24:05 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$f6aae88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:24:05 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:24:06 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:24:06 -Tomcat initialized with port(s): 80 (http)
+2020-02-25 21:24:06 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-25 21:24:06 -Starting service [Tomcat]
+2020-02-25 21:24:06 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:24:06 -Initializing Spring embedded WebApplicationContext
+2020-02-25 21:24:06 -Root WebApplicationContext: initialization completed in 2034 ms
+2020-02-25 21:24:06 -Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+2020-02-25 21:24:06 -Stopping service [Tomcat]
+2020-02-25 21:24:06 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-02-25 21:24:06 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 21:24:06 -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.octopus.Eshop1Application.main(Eshop1Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: java.lang.IllegalArgumentException: There is no filter with name 'anno' to apply to chain [/sys/toLogin] in the pool of available Filters.  Ensure a filter with that name/path has first been registered with the addFilter method(s).
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.addToChain(DefaultFilterChainManager.java:265)
+	at org.apache.shiro.web.filter.mgt.DefaultFilterChainManager.createChain(DefaultFilterChainManager.java:148)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createFilterChainManager(ShiroFilterFactoryBean.java:397)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.createInstance(ShiroFilterFactoryBean.java:437)
+	at org.apache.shiro.spring.web.ShiroFilterFactoryBean.getObject(ShiroFilterFactoryBean.java:343)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 55 common frames omitted

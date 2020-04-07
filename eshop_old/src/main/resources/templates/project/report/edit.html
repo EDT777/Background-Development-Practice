@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+	<div class="wrapper wrapper-content ">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-content">
+						<form class="form-horizontal m-t" id="signupForm">
+						<input id="id" name="id" th:value="${report.id}"  type="hidden">
+							<div class="form-group">	
+								<label class="col-sm-3 control-label">报表内部名称：</label>
+								<div class="col-sm-8">
+									<input id="reportKey" name="reportKey" th:value="${report.reportKey}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">报表名称：</label>
+								<div class="col-sm-8">
+									<input id="reportName" name="reportName" th:value="${report.reportName}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">主s查询语句：</label>
+								<div class="col-sm-8">
+									<input id="mainSql" name="mainSql" th:value="${report.mainSql}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">是否缓存：</label>
+								<div class="col-sm-8">
+									<input id="cacheData" name="cacheData" th:value="${report.cacheData}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">搜索条件：</label>
+								<div class="col-sm-8">
+									<input id="fixedCondition" name="fixedCondition" th:value="${report.fixedCondition}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">中文列名：</label>
+								<div class="col-sm-8">
+									<input id="columnNameMapping" name="columnNameMapping" th:value="${report.columnNameMapping}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">创建人：</label>
+								<div class="col-sm-8">
+									<input id="createUserId" name="createUserId" th:value="${report.createUserId}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">创建日期：</label>
+								<div class="col-sm-8">
+									<input id="createDate" name="createDate" th:value="${report.createDate}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">：</label>
+								<div class="col-sm-8">
+									<input id="updateUserId" name="updateUserId" th:value="${report.updateUserId}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">：</label>
+								<div class="col-sm-8">
+									<input id="updateTime" name="updateTime" th:value="${report.updateTime}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">报表描述：</label>
+								<div class="col-sm-8">
+									<input id="description" name="description" th:value="${report.description}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">删除标记：</label>
+								<div class="col-sm-8">
+									<input id="delFlag" name="delFlag" th:value="${report.delFlag}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">预览查询语句：</label>
+								<div class="col-sm-8">
+									<input id="showInWebSql" name="showInWebSql" th:value="${report.showInWebSql}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">模板文件：</label>
+								<div class="col-sm-8">
+									<input id="templateFile" name="templateFile" th:value="${report.templateFile}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">默认日期格式：</label>
+								<div class="col-sm-8">
+									<input id="dateFormat" name="dateFormat" th:value="${report.dateFormat}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">默认浮点数的格式：</label>
+								<div class="col-sm-8">
+									<input id="floatNumberFormat" name="floatNumberFormat" th:value="${report.floatNumberFormat}" class="form-control" type="text">
+								</div>
+							</div>
+																					<div class="form-group">
+								<div class="col-sm-8 col-sm-offset-3">
+									<button type="submit" class="btn btn-primary">提交</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div th:include="include::footer"></div>
+	<script type="text/javascript" src="/js/appjs/project/report/edit.js">
+	</script>
+</body>
+</html>

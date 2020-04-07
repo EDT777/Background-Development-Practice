@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+	<div class="wrapper wrapper-content ">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-content">
+						<form class="form-horizontal m-t" id="signupForm">
+						<input id="id" name="id" th:value="${goods.id}"  type="hidden">
+							<div class="form-group">	
+								<label class="col-sm-3 control-label">名称：</label>
+								<div class="col-sm-8">
+									<input id="name" name="name" th:value="${goods.name}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">价格：</label>
+								<div class="col-sm-8">
+									<input id="price" name="price" th:value="${goods.price}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">数量：</label>
+								<div class="col-sm-8">
+									<input id="count" name="count" th:value="${goods.count}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">商品类型：</label>
+								<div class="col-sm-8">
+									<input id="type" name="type" th:value="${goods.type}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">上架时间：</label>
+								<div class="col-sm-8">
+									<input id="upTime" name="upTime" th:value="${goods.upTime}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">商品状态，0表示正常，1表示库存预警，-1表示无货，-2表示已下架：</label>
+								<div class="col-sm-8">
+									<input id="state" name="state" th:value="${goods.state}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">进货渠道：</label>
+								<div class="col-sm-8">
+									<input id="sourceChannel" name="sourceChannel" th:value="${goods.sourceChannel}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">进货价格：</label>
+								<div class="col-sm-8">
+									<input id="inPrice" name="inPrice" th:value="${goods.inPrice}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">促销价格：</label>
+								<div class="col-sm-8">
+									<input id="promtionPrice" name="promtionPrice" th:value="${goods.promtionPrice}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">商品类型的引用上类型表的id：</label>
+								<div class="col-sm-8">
+									<input id="typeId" name="typeId" th:value="${goods.typeId}" class="form-control" type="text">
+								</div>
+							</div>
+																					<div class="form-group">
+								<div class="col-sm-8 col-sm-offset-3">
+									<button type="submit" class="btn btn-primary">提交</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div th:include="include::footer"></div>
+	<script type="text/javascript" src="/js/appjs/project/goods/edit.js">
+	</script>
+</body>
+</html>

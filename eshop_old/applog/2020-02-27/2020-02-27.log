@@ -1,0 +1,1304 @@
+2020-02-27 16:23:09 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 14852 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:23:09 -No active profile set, falling back to default profiles: default
+2020-02-27 16:23:09 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 16:23:09 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 16:23:10 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:23:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:23:10 -Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-02-27 16:23:11 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$2db563c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:11 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:12 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:12 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:23:12 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:12 -Starting service [Tomcat]
+2020-02-27 16:23:12 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:23:12 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:23:12 -Root WebApplicationContext: initialization completed in 3369 ms
+2020-02-27 16:23:13 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:23:13 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:23:14 -Unable to start LiveReload server
+2020-02-27 16:23:14 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:14 -Pausing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:14 -Stopping service [Tomcat]
+2020-02-27 16:23:14 -Stopping ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:14 -Destroying ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:14 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-27 16:23:14 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+2020-02-27 16:23:15 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:23:32 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 14616 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:23:32 -No active profile set, falling back to default profiles: default
+2020-02-27 16:23:32 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 16:23:32 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 16:23:33 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:23:33 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:23:33 -Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-02-27 16:23:33 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$901fcd8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:33 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:34 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:23:35 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:23:35 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:35 -Starting service [Tomcat]
+2020-02-27 16:23:35 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:23:35 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:23:35 -Root WebApplicationContext: initialization completed in 2889 ms
+2020-02-27 16:23:36 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:23:36 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:23:37 -Unable to start LiveReload server
+2020-02-27 16:23:37 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:37 -Pausing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:37 -Stopping service [Tomcat]
+2020-02-27 16:23:37 -Stopping ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:37 -Destroying ProtocolHandler ["http-nio-80"]
+2020-02-27 16:23:37 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-27 16:23:37 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+2020-02-27 16:23:37 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:24:38 -{dataSource-1} inited
+2020-02-27 16:29:57 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:29:57 -{dataSource-1} closed
+2020-02-27 16:29:58 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 7484 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:29:58 -No active profile set, falling back to default profiles: default
+2020-02-27 16:29:58 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:29:58 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:29:58 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-02-27 16:29:58 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$5f500408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:29:58 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:29:58 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:29:59 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:29:59 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:29:59 -Starting service [Tomcat]
+2020-02-27 16:29:59 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:29:59 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:29:59 -Root WebApplicationContext: initialization completed in 786 ms
+2020-02-27 16:29:59 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:29:59 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:30:00 -LiveReload server is running on port 35729
+2020-02-27 16:30:00 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:30:00 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:30:00 -Started Eshop1Application in 1.765 seconds (JVM running for 70922.806)
+2020-02-27 16:30:00 -Condition evaluation unchanged
+2020-02-27 16:30:41 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:30:41 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 7484 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:30:41 -No active profile set, falling back to default profiles: default
+2020-02-27 16:30:42 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:30:42 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:30:42 -Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-02-27 16:30:42 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$5f500408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:30:42 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:30:42 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:30:42 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:30:42 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:30:42 -Starting service [Tomcat]
+2020-02-27 16:30:42 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:30:42 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:30:42 -Root WebApplicationContext: initialization completed in 691 ms
+2020-02-27 16:30:42 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:30:42 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:30:42 -LiveReload server is running on port 35729
+2020-02-27 16:30:42 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:30:42 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:30:42 -Started Eshop1Application in 1.313 seconds (JVM running for 70965.661)
+2020-02-27 16:30:42 -Condition evaluation unchanged
+2020-02-27 16:33:26 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:33:26 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:33:26 -Completed initialization in 8 ms
+2020-02-27 16:33:26 -{dataSource-2} inited
+2020-02-27 16:33:32 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:33:32 -No active profile set, falling back to default profiles: default
+2020-02-27 16:33:32 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 16:33:32 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 16:33:33 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:33:33 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:33:33 -Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-02-27 16:33:33 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:33:33 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:33:34 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:33:34 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:33:34 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:33:34 -Starting service [Tomcat]
+2020-02-27 16:33:34 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:33:34 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:33:34 -Root WebApplicationContext: initialization completed in 2108 ms
+2020-02-27 16:33:35 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:33:35 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:33:36 -LiveReload server is running on port 35729
+2020-02-27 16:33:36 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:33:36 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:33:36 -Started Eshop1Application in 3.991 seconds (JVM running for 4.463)
+2020-02-27 16:33:39 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:33:39 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:33:39 -Completed initialization in 7 ms
+2020-02-27 16:33:54 -{dataSource-1} inited
+2020-02-27 16:44:04 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:44:04 -{dataSource-1} closed
+2020-02-27 16:44:04 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:44:04 -No active profile set, falling back to default profiles: default
+2020-02-27 16:44:04 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:44:04 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:44:04 -Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-02-27 16:44:04 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:04 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:04 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:04 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:44:04 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:44:04 -Starting service [Tomcat]
+2020-02-27 16:44:04 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:44:05 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:44:05 -Root WebApplicationContext: initialization completed in 619 ms
+2020-02-27 16:44:05 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:44:05 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:44:05 -LiveReload server is running on port 35729
+2020-02-27 16:44:05 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:44:05 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:44:05 -Started Eshop1Application in 1.223 seconds (JVM running for 633.847)
+2020-02-27 16:44:05 -Condition evaluation unchanged
+2020-02-27 16:44:17 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:44:18 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:44:18 -No active profile set, falling back to default profiles: default
+2020-02-27 16:44:18 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:44:18 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:44:18 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-27 16:44:18 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:18 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:18 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:44:18 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:44:18 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:44:18 -Starting service [Tomcat]
+2020-02-27 16:44:18 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:44:18 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:44:18 -Root WebApplicationContext: initialization completed in 533 ms
+2020-02-27 16:44:19 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:44:19 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:44:19 -LiveReload server is running on port 35729
+2020-02-27 16:44:19 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:44:19 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:44:19 -Started Eshop1Application in 1.026 seconds (JVM running for 647.45)
+2020-02-27 16:44:19 -Condition evaluation unchanged
+2020-02-27 16:47:08 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:47:08 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:47:08 -No active profile set, falling back to default profiles: default
+2020-02-27 16:47:08 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:47:08 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:47:08 -Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-02-27 16:47:09 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:47:09 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:47:09 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:47:09 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:47:09 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:47:09 -Starting service [Tomcat]
+2020-02-27 16:47:09 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:47:09 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:47:09 -Root WebApplicationContext: initialization completed in 761 ms
+2020-02-27 16:47:09 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:47:09 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:47:09 -LiveReload server is running on port 35729
+2020-02-27 16:47:09 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:47:09 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:47:09 -Started Eshop1Application in 1.421 seconds (JVM running for 818.176)
+2020-02-27 16:47:09 -Condition evaluation unchanged
+2020-02-27 16:52:41 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:52:41 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:52:41 -No active profile set, falling back to default profiles: default
+2020-02-27 16:52:41 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:52:41 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:52:41 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-02-27 16:52:42 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6b4f76f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy208] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:52:42 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:52:42 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:52:42 -Starting service [Tomcat]
+2020-02-27 16:52:42 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:52:42 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:52:42 -Root WebApplicationContext: initialization completed in 686 ms
+2020-02-27 16:52:42 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:52:42 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:52:42 -LiveReload server is running on port 35729
+2020-02-27 16:52:42 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:52:42 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:52:42 -Started Eshop1Application in 0.989 seconds (JVM running for 1150.909)
+2020-02-27 16:52:42 -Condition evaluation unchanged
+2020-02-27 16:55:55 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:55:55 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30548 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:55:55 -No active profile set, falling back to default profiles: default
+2020-02-27 16:55:55 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:55:55 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:55:55 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-27 16:55:55 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$97b7c49b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6b4f76f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy239] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:55 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:56 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:55:56 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:55:56 -Starting service [Tomcat]
+2020-02-27 16:55:56 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:55:56 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:55:56 -Root WebApplicationContext: initialization completed in 539 ms
+2020-02-27 16:55:56 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:55:56 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:55:56 -LiveReload server is running on port 35729
+2020-02-27 16:55:56 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:55:56 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:55:56 -Started Eshop1Application in 0.821 seconds (JVM running for 1344.621)
+2020-02-27 16:55:56 -Condition evaluation unchanged
+2020-02-27 16:55:57 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33092 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:55:57 -No active profile set, falling back to default profiles: default
+2020-02-27 16:55:57 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 16:55:57 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 16:55:58 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:55:58 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:55:58 -Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-02-27 16:55:59 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$27c8d93d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$fb608b9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:55:59 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:00 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:00 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:56:00 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:00 -Starting service [Tomcat]
+2020-02-27 16:56:00 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:56:00 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:56:00 -Root WebApplicationContext: initialization completed in 2940 ms
+2020-02-27 16:56:01 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:56:01 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:56:01 -Unable to start LiveReload server
+2020-02-27 16:56:01 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:01 -Pausing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:01 -Stopping service [Tomcat]
+2020-02-27 16:56:01 -Stopping ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:01 -Destroying ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:01 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-27 16:56:01 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+2020-02-27 16:56:02 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:56:10 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:56:10 -No active profile set, falling back to default profiles: default
+2020-02-27 16:56:10 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 16:56:10 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 16:56:11 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:56:11 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:56:11 -Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2020-02-27 16:56:11 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:11 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:12 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:56:13 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:56:13 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:13 -Starting service [Tomcat]
+2020-02-27 16:56:13 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:56:13 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:56:13 -Root WebApplicationContext: initialization completed in 2907 ms
+2020-02-27 16:56:13 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:56:13 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:56:14 -LiveReload server is running on port 35729
+2020-02-27 16:56:14 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:56:14 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:56:14 -Started Eshop1Application in 4.412 seconds (JVM running for 4.915)
+2020-02-27 16:56:23 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:56:23 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:56:23 -Completed initialization in 13 ms
+2020-02-27 16:57:34 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:57:35 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:57:35 -No active profile set, falling back to default profiles: default
+2020-02-27 16:57:35 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:57:35 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:57:35 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-27 16:57:35 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy113] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:35 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:57:36 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:57:36 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:57:36 -Starting service [Tomcat]
+2020-02-27 16:57:36 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:57:36 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:57:36 -Root WebApplicationContext: initialization completed in 795 ms
+2020-02-27 16:57:36 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:57:36 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:57:36 -LiveReload server is running on port 35729
+2020-02-27 16:57:36 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:57:36 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:57:36 -Started Eshop1Application in 1.176 seconds (JVM running for 87.088)
+2020-02-27 16:57:36 -Condition evaluation unchanged
+2020-02-27 16:57:40 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:57:40 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:57:40 -Completed initialization in 5 ms
+2020-02-27 16:58:16 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:58:16 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:58:16 -No active profile set, falling back to default profiles: default
+2020-02-27 16:58:17 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:58:17 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:58:17 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-02-27 16:58:17 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy144] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:17 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:58:17 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:58:17 -Starting service [Tomcat]
+2020-02-27 16:58:17 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:58:17 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:58:17 -Root WebApplicationContext: initialization completed in 728 ms
+2020-02-27 16:58:17 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:58:17 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:58:17 -LiveReload server is running on port 35729
+2020-02-27 16:58:17 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:58:17 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:58:17 -Started Eshop1Application in 1.045 seconds (JVM running for 128.488)
+2020-02-27 16:58:17 -Condition evaluation unchanged
+2020-02-27 16:58:50 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:58:50 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:58:50 -No active profile set, falling back to default profiles: default
+2020-02-27 16:58:50 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:58:50 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:58:50 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-02-27 16:58:51 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy175] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:58:51 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:58:51 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:58:51 -Starting service [Tomcat]
+2020-02-27 16:58:51 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:58:51 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:58:51 -Root WebApplicationContext: initialization completed in 629 ms
+2020-02-27 16:58:51 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:58:51 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:58:51 -LiveReload server is running on port 35729
+2020-02-27 16:58:51 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:58:51 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:58:51 -Started Eshop1Application in 0.948 seconds (JVM running for 162.276)
+2020-02-27 16:58:51 -Condition evaluation unchanged
+2020-02-27 16:58:53 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:58:53 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:58:53 -Completed initialization in 4 ms
+2020-02-27 16:59:17 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:59:18 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 16:59:18 -No active profile set, falling back to default profiles: default
+2020-02-27 16:59:18 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 16:59:18 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 16:59:18 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-27 16:59:18 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy206] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 16:59:18 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 16:59:18 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 16:59:18 -Starting service [Tomcat]
+2020-02-27 16:59:18 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 16:59:18 -Initializing Spring embedded WebApplicationContext
+2020-02-27 16:59:18 -Root WebApplicationContext: initialization completed in 852 ms
+2020-02-27 16:59:19 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 16:59:19 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 16:59:19 -LiveReload server is running on port 35729
+2020-02-27 16:59:19 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 16:59:19 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 16:59:19 -Started Eshop1Application in 1.233 seconds (JVM running for 189.957)
+2020-02-27 16:59:19 -Condition evaluation unchanged
+2020-02-27 16:59:21 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 16:59:21 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 16:59:21 -Completed initialization in 3 ms
+2020-02-27 17:02:03 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:02:03 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 30936 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:02:03 -No active profile set, falling back to default profiles: default
+2020-02-27 17:02:04 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:02:04 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:02:04 -Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-02-27 17:02:04 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab5a8a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7ef23cb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy237] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:02:04 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:02:04 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:02:04 -Starting service [Tomcat]
+2020-02-27 17:02:04 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:02:04 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:02:04 -Root WebApplicationContext: initialization completed in 504 ms
+2020-02-27 17:02:04 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:02:04 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:02:04 -LiveReload server is running on port 35729
+2020-02-27 17:02:04 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:02:04 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:02:04 -Started Eshop1Application in 0.822 seconds (JVM running for 355.307)
+2020-02-27 17:02:04 -Condition evaluation unchanged
+2020-02-27 17:03:04 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:03:04 -No active profile set, falling back to default profiles: default
+2020-02-27 17:03:04 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 17:03:04 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 17:03:05 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:03:05 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:03:05 -Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-02-27 17:03:05 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:05 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:03:06 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:03:06 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:03:06 -Starting service [Tomcat]
+2020-02-27 17:03:06 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:03:06 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:03:06 -Root WebApplicationContext: initialization completed in 2641 ms
+2020-02-27 17:03:07 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:03:07 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:03:07 -LiveReload server is running on port 35729
+2020-02-27 17:03:07 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:03:07 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:03:07 -Started Eshop1Application in 4.045 seconds (JVM running for 4.517)
+2020-02-27 17:03:52 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 17:03:52 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 17:03:52 -Completed initialization in 11 ms
+2020-02-27 17:13:29 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:13:30 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:13:30 -No active profile set, falling back to default profiles: default
+2020-02-27 17:13:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:13:30 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:13:30 -Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-02-27 17:13:30 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:30 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy113] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:13:31 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:13:31 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:13:31 -Starting service [Tomcat]
+2020-02-27 17:13:31 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:13:31 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:13:31 -Root WebApplicationContext: initialization completed in 988 ms
+2020-02-27 17:13:31 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:13:31 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:13:31 -LiveReload server is running on port 35729
+2020-02-27 17:13:31 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:13:31 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:13:31 -Started Eshop1Application in 1.441 seconds (JVM running for 628.373)
+2020-02-27 17:13:31 -Condition evaluation unchanged
+2020-02-27 17:16:19 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:16:19 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:16:19 -No active profile set, falling back to default profiles: default
+2020-02-27 17:16:20 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:16:20 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:16:20 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-02-27 17:16:20 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy144] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:16:20 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:16:20 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:16:20 -Starting service [Tomcat]
+2020-02-27 17:16:20 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:16:20 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:16:20 -Root WebApplicationContext: initialization completed in 792 ms
+2020-02-27 17:16:20 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:16:20 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:16:20 -LiveReload server is running on port 35729
+2020-02-27 17:16:20 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:16:20 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:16:20 -Started Eshop1Application in 1.161 seconds (JVM running for 797.551)
+2020-02-27 17:16:20 -Condition evaluation unchanged
+2020-02-27 17:18:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:18:13 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:18:13 -No active profile set, falling back to default profiles: default
+2020-02-27 17:18:13 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:18:13 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:18:13 -Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-02-27 17:18:13 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy175] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:13 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:14 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:18:14 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:18:14 -Starting service [Tomcat]
+2020-02-27 17:18:14 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:18:14 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:18:14 -Root WebApplicationContext: initialization completed in 606 ms
+2020-02-27 17:18:14 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:18:14 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:18:14 -LiveReload server is running on port 35729
+2020-02-27 17:18:14 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:18:14 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:18:14 -Started Eshop1Application in 0.952 seconds (JVM running for 911.002)
+2020-02-27 17:18:14 -Condition evaluation unchanged
+2020-02-27 17:18:27 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:18:28 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:18:28 -No active profile set, falling back to default profiles: default
+2020-02-27 17:18:28 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:18:28 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:18:28 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-02-27 17:18:28 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy206] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:28 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:18:29 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:18:29 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:18:29 -Starting service [Tomcat]
+2020-02-27 17:18:29 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:18:29 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:18:29 -Root WebApplicationContext: initialization completed in 1008 ms
+2020-02-27 17:18:29 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:18:29 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:18:29 -LiveReload server is running on port 35729
+2020-02-27 17:18:29 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:18:29 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:18:29 -Started Eshop1Application in 1.459 seconds (JVM running for 926.122)
+2020-02-27 17:18:29 -Condition evaluation unchanged
+2020-02-27 17:19:04 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:19:04 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:19:04 -No active profile set, falling back to default profiles: default
+2020-02-27 17:19:05 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:19:05 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:19:05 -Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-02-27 17:19:05 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy237] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:19:05 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:19:05 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:19:05 -Starting service [Tomcat]
+2020-02-27 17:19:05 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:19:05 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:19:05 -Root WebApplicationContext: initialization completed in 808 ms
+2020-02-27 17:19:05 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:19:05 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:19:05 -LiveReload server is running on port 35729
+2020-02-27 17:19:05 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:19:05 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:19:05 -Started Eshop1Application in 1.178 seconds (JVM running for 962.491)
+2020-02-27 17:19:05 -Condition evaluation unchanged
+2020-02-27 17:21:19 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:21:19 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:21:19 -No active profile set, falling back to default profiles: default
+2020-02-27 17:21:19 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:21:19 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:21:19 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-27 17:21:19 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:19 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:21:20 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:21:20 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:21:20 -Starting service [Tomcat]
+2020-02-27 17:21:20 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:21:20 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:21:20 -Root WebApplicationContext: initialization completed in 745 ms
+2020-02-27 17:21:20 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:21:20 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:21:20 -LiveReload server is running on port 35729
+2020-02-27 17:21:20 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:21:20 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:21:20 -Started Eshop1Application in 1.121 seconds (JVM running for 1097.4)
+2020-02-27 17:21:20 -Condition evaluation unchanged
+2020-02-27 17:50:45 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:50:45 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:50:45 -No active profile set, falling back to default profiles: default
+2020-02-27 17:50:45 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:50:45 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:50:45 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-27 17:50:46 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:50:46 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:50:46 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:50:46 -Starting service [Tomcat]
+2020-02-27 17:50:46 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:50:46 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:50:46 -Root WebApplicationContext: initialization completed in 551 ms
+2020-02-27 17:50:46 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:50:46 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:50:46 -LiveReload server is running on port 35729
+2020-02-27 17:50:46 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:50:46 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:50:46 -Started Eshop1Application in 0.796 seconds (JVM running for 2863.163)
+2020-02-27 17:50:46 -Condition evaluation unchanged
+2020-02-27 17:51:08 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:51:08 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 17:51:08 -No active profile set, falling back to default profiles: default
+2020-02-27 17:51:08 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 17:51:08 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 17:51:08 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-27 17:51:08 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:08 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy330] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 17:51:09 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 17:51:09 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 17:51:09 -Starting service [Tomcat]
+2020-02-27 17:51:09 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:51:09 -Initializing Spring embedded WebApplicationContext
+2020-02-27 17:51:09 -Root WebApplicationContext: initialization completed in 459 ms
+2020-02-27 17:51:09 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:51:09 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 17:51:09 -LiveReload server is running on port 35729
+2020-02-27 17:51:09 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 17:51:09 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 17:51:09 -Started Eshop1Application in 0.763 seconds (JVM running for 2886.1)
+2020-02-27 17:51:09 -Condition evaluation unchanged
+2020-02-27 19:20:14 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:20:14 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:20:14 -No active profile set, falling back to default profiles: default
+2020-02-27 19:20:14 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:20:14 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:20:14 -Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-02-27 19:20:15 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy361] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:15 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:20:15 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:20:15 -Starting service [Tomcat]
+2020-02-27 19:20:15 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:20:15 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:20:15 -Root WebApplicationContext: initialization completed in 879 ms
+2020-02-27 19:20:15 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:20:15 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:20:15 -LiveReload server is running on port 35729
+2020-02-27 19:20:15 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:20:15 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:20:15 -Started Eshop1Application in 1.222 seconds (JVM running for 8232.422)
+2020-02-27 19:20:15 -Condition evaluation unchanged
+2020-02-27 19:20:52 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:20:53 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:20:53 -No active profile set, falling back to default profiles: default
+2020-02-27 19:20:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:20:53 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:20:53 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-02-27 19:20:53 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy392] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:20:53 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:20:53 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:20:53 -Starting service [Tomcat]
+2020-02-27 19:20:53 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:20:53 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:20:53 -Root WebApplicationContext: initialization completed in 644 ms
+2020-02-27 19:20:53 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:20:53 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:20:54 -LiveReload server is running on port 35729
+2020-02-27 19:20:54 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:20:54 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:20:54 -Started Eshop1Application in 1.054 seconds (JVM running for 8270.672)
+2020-02-27 19:20:54 -Condition evaluation unchanged
+2020-02-27 19:24:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:24:13 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:24:13 -No active profile set, falling back to default profiles: default
+2020-02-27 19:24:14 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:24:14 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:24:14 -Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-02-27 19:24:14 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy423] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:24:14 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:24:14 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:24:14 -Starting service [Tomcat]
+2020-02-27 19:24:14 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:24:14 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:24:14 -Root WebApplicationContext: initialization completed in 541 ms
+2020-02-27 19:24:14 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:24:14 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:24:14 -LiveReload server is running on port 35729
+2020-02-27 19:24:14 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:24:14 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:24:14 -Started Eshop1Application in 0.86 seconds (JVM running for 8471.455)
+2020-02-27 19:24:14 -Condition evaluation unchanged
+2020-02-27 19:29:10 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:29:10 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:29:10 -No active profile set, falling back to default profiles: default
+2020-02-27 19:29:10 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:29:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:29:10 -Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-02-27 19:29:10 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy454] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:10 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:11 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:29:11 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:29:11 -Starting service [Tomcat]
+2020-02-27 19:29:11 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:29:11 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:29:11 -Root WebApplicationContext: initialization completed in 573 ms
+2020-02-27 19:29:11 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:29:11 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:29:11 -LiveReload server is running on port 35729
+2020-02-27 19:29:11 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:29:11 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:29:11 -Started Eshop1Application in 0.849 seconds (JVM running for 8768.002)
+2020-02-27 19:29:11 -Condition evaluation unchanged
+2020-02-27 19:29:48 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:29:48 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:29:48 -No active profile set, falling back to default profiles: default
+2020-02-27 19:29:48 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:29:48 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:29:48 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-27 19:29:48 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy485] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:29:48 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:29:48 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:29:48 -Starting service [Tomcat]
+2020-02-27 19:29:48 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:29:48 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:29:48 -Root WebApplicationContext: initialization completed in 449 ms
+2020-02-27 19:29:48 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:29:49 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:29:49 -LiveReload server is running on port 35729
+2020-02-27 19:29:49 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:29:49 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:29:49 -Started Eshop1Application in 0.679 seconds (JVM running for 8805.756)
+2020-02-27 19:29:49 -Condition evaluation unchanged
+2020-02-27 19:30:30 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:30:30 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:30:30 -No active profile set, falling back to default profiles: default
+2020-02-27 19:30:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:30:30 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:30:30 -Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-02-27 19:30:30 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy516] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:30:30 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:30:30 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:30:30 -Starting service [Tomcat]
+2020-02-27 19:30:30 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:30:30 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:30:30 -Root WebApplicationContext: initialization completed in 443 ms
+2020-02-27 19:30:31 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:30:31 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:30:31 -LiveReload server is running on port 35729
+2020-02-27 19:30:31 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:30:31 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:30:31 -Started Eshop1Application in 0.679 seconds (JVM running for 8847.783)
+2020-02-27 19:30:31 -Condition evaluation unchanged
+2020-02-27 19:31:33 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:31:33 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:31:33 -No active profile set, falling back to default profiles: default
+2020-02-27 19:31:34 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:31:34 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:31:34 -Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-02-27 19:31:34 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy547] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:31:34 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:31:34 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:31:34 -Starting service [Tomcat]
+2020-02-27 19:31:34 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:31:34 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:31:34 -Root WebApplicationContext: initialization completed in 473 ms
+2020-02-27 19:31:34 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:31:34 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:31:34 -LiveReload server is running on port 35729
+2020-02-27 19:31:34 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:31:34 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:31:34 -Started Eshop1Application in 0.699 seconds (JVM running for 8911.17)
+2020-02-27 19:31:34 -Condition evaluation unchanged
+2020-02-27 19:32:48 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:32:49 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 33244 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:32:49 -No active profile set, falling back to default profiles: default
+2020-02-27 19:32:49 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:32:49 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:32:49 -Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-02-27 19:32:49 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd390d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d0d0bfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy578] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:32:49 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:32:49 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:32:49 -Starting service [Tomcat]
+2020-02-27 19:32:49 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:32:49 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:32:49 -Root WebApplicationContext: initialization completed in 524 ms
+2020-02-27 19:32:49 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:32:49 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:32:49 -LiveReload server is running on port 35729
+2020-02-27 19:32:49 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:32:49 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:32:49 -Started Eshop1Application in 0.773 seconds (JVM running for 8986.502)
+2020-02-27 19:32:49 -Condition evaluation unchanged
+2020-02-27 19:33:44 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 19:33:44 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 19:33:44 -Completed initialization in 3 ms
+2020-02-27 19:33:44 -{dataSource-1} inited
+2020-02-27 19:34:28 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 31560 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:34:28 -No active profile set, falling back to default profiles: default
+2020-02-27 19:34:28 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 19:34:28 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 19:34:29 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:34:29 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:34:29 -Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2020-02-27 19:34:29 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$54c4d453] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:29 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:29 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:29 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$285c86b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:29 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:30 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:31 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:34:31 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:34:31 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:34:31 -Starting service [Tomcat]
+2020-02-27 19:34:31 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:34:31 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:34:31 -Root WebApplicationContext: initialization completed in 2975 ms
+2020-02-27 19:34:32 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:34:32 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:34:32 -LiveReload server is running on port 35729
+2020-02-27 19:34:32 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:34:32 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:34:32 -Started Eshop1Application in 4.622 seconds (JVM running for 5.087)
+2020-02-27 19:34:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 19:34:37 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 19:34:37 -Completed initialization in 10 ms
+2020-02-27 19:34:43 -{dataSource-1} inited
+2020-02-27 19:36:14 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 27976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:36:14 -No active profile set, falling back to default profiles: default
+2020-02-27 19:36:14 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 19:36:14 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 19:36:15 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:36:15 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:36:15 -Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2020-02-27 19:36:16 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$1d7c3a50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f113ecad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:16 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:17 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:17 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:36:17 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:36:17 -Starting service [Tomcat]
+2020-02-27 19:36:17 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:36:17 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:36:17 -Root WebApplicationContext: initialization completed in 2713 ms
+2020-02-27 19:36:17 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:36:18 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:36:18 -LiveReload server is running on port 35729
+2020-02-27 19:36:18 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:36:18 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:36:18 -Started Eshop1Application in 4.301 seconds (JVM running for 4.774)
+2020-02-27 19:36:22 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 19:36:22 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 19:36:22 -Completed initialization in 9 ms
+2020-02-27 19:36:28 -{dataSource-1} inited
+2020-02-27 19:36:39 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:36:39 -{dataSource-1} closed
+2020-02-27 19:36:39 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 27976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:36:39 -No active profile set, falling back to default profiles: default
+2020-02-27 19:36:40 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:36:40 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:36:40 -Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-02-27 19:36:40 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$1d7c3a50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f113ecad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy113] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:36:40 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:36:40 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:36:40 -Starting service [Tomcat]
+2020-02-27 19:36:40 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:36:40 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:36:40 -Root WebApplicationContext: initialization completed in 660 ms
+2020-02-27 19:36:40 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:36:40 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:36:40 -LiveReload server is running on port 35729
+2020-02-27 19:36:40 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:36:40 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:36:40 -Started Eshop1Application in 1.016 seconds (JVM running for 27.042)
+2020-02-27 19:36:40 -Condition evaluation unchanged
+2020-02-27 19:36:42 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 19:36:42 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 19:36:42 -Completed initialization in 5 ms
+2020-02-27 19:36:42 -{dataSource-2} inited
+2020-02-27 19:38:38 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:38:38 -{dataSource-2} closed
+2020-02-27 19:38:39 -Starting Eshop1Application on DESKTOP-43IB5P6 with PID 27976 (F:\JAVA_lianxi\eshop1\target\classes started by EDT灬谭泽豪 in F:\JAVA_lianxi\eshop1)
+2020-02-27 19:38:39 -No active profile set, falling back to default profiles: default
+2020-02-27 19:38:39 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-27 19:38:39 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-27 19:38:39 -Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-02-27 19:38:39 -Bean 'shiroConfig' of type [com.octopus.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$1d7c3a50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f113ecad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'sysUserDao' of type [com.sun.proxy.$Proxy144] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'sysUserServiceImpl' of type [com.octopus.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'mUserRealm' of type [com.octopus.common.userrealm.MyUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 19:38:39 -Tomcat initialized with port(s): 80 (http)
+2020-02-27 19:38:39 -Initializing ProtocolHandler ["http-nio-80"]
+2020-02-27 19:38:39 -Starting service [Tomcat]
+2020-02-27 19:38:39 -Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 19:38:39 -Initializing Spring embedded WebApplicationContext
+2020-02-27 19:38:39 -Root WebApplicationContext: initialization completed in 581 ms
+2020-02-27 19:38:39 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 19:38:39 -Adding welcome page: class path resource [static/index.html]
+2020-02-27 19:38:39 -LiveReload server is running on port 35729
+2020-02-27 19:38:39 -Starting ProtocolHandler ["http-nio-80"]
+2020-02-27 19:38:39 -Tomcat started on port(s): 80 (http) with context path ''
+2020-02-27 19:38:39 -Started Eshop1Application in 0.881 seconds (JVM running for 145.95)
+2020-02-27 19:38:39 -Condition evaluation unchanged
+2020-02-27 19:38:57 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 19:38:57 -Initializing Servlet 'dispatcherServlet'
+2020-02-27 19:38:57 -Completed initialization in 4 ms
+2020-02-27 19:38:57 -{dataSource-3} inited

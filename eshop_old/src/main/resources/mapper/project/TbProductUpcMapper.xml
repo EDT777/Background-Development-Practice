@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.octopus.project.dao.TbProductUpcDao">
+
+	<select id="get" resultType="com.octopus.project.domain.TbProductUpcDO">
+		select `id`,`product_id`,`name`,`type_name`,`price`,`sale_price`,`on_sale`,`quantity`,`low_stock_threshold`,`unity`,`supplier_reference`,`create_by`,`gmt_create`,`update_by`,`gmt_update`,`del_flag`,`upc` from tb_product_upc where id = #{value}
+	</select>
+
+	<select id="list" resultType="com.octopus.project.domain.TbProductUpcDO">
+		select `id`,`product_id`,`name`,`type_name`,`price`,`sale_price`,`on_sale`,`quantity`,`low_stock_threshold`,`unity`,`supplier_reference`,`create_by`,`gmt_create`,`update_by`,`gmt_update`,`del_flag`,`upc` from tb_product_upc
+        <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="productId != null and productId != ''"> and product_id = #{productId} </if>
+		  		  <if test="name != null and name != ''"> and name = #{name} </if>
+		  		  <if test="typeName != null and typeName != ''"> and type_name = #{typeName} </if>
+		  		  <if test="price != null and price != ''"> and price = #{price} </if>
+		  		  <if test="salePrice != null and salePrice != ''"> and sale_price = #{salePrice} </if>
+		  		  <if test="onSale != null and onSale != ''"> and on_sale = #{onSale} </if>
+		  		  <if test="quantity != null and quantity != ''"> and quantity = #{quantity} </if>
+		  		  <if test="lowStockThreshold != null and lowStockThreshold != ''"> and low_stock_threshold = #{lowStockThreshold} </if>
+		  		  <if test="unity != null and unity != ''"> and unity = #{unity} </if>
+		  		  <if test="supplierReference != null and supplierReference != ''"> and supplier_reference = #{supplierReference} </if>
+		  		  <if test="createBy != null and createBy != ''"> and create_by = #{createBy} </if>
+		  		  <if test="gmtCreate != null and gmtCreate != ''"> and gmt_create = #{gmtCreate} </if>
+		  		  <if test="updateBy != null and updateBy != ''"> and update_by = #{updateBy} </if>
+		  		  <if test="gmtUpdate != null and gmtUpdate != ''"> and gmt_update = #{gmtUpdate} </if>
+		  		  <if test="delFlag != null and delFlag != ''"> and del_flag = #{delFlag} </if>
+		  		  <if test="upc != null and upc != ''"> and upc = #{upc} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from tb_product_upc
+		 <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="productId != null and productId != ''"> and product_id = #{productId} </if>
+		  		  <if test="name != null and name != ''"> and name = #{name} </if>
+		  		  <if test="typeName != null and typeName != ''"> and type_name = #{typeName} </if>
+		  		  <if test="price != null and price != ''"> and price = #{price} </if>
+		  		  <if test="salePrice != null and salePrice != ''"> and sale_price = #{salePrice} </if>
+		  		  <if test="onSale != null and onSale != ''"> and on_sale = #{onSale} </if>
+		  		  <if test="quantity != null and quantity != ''"> and quantity = #{quantity} </if>
+		  		  <if test="lowStockThreshold != null and lowStockThreshold != ''"> and low_stock_threshold = #{lowStockThreshold} </if>
+		  		  <if test="unity != null and unity != ''"> and unity = #{unity} </if>
+		  		  <if test="supplierReference != null and supplierReference != ''"> and supplier_reference = #{supplierReference} </if>
+		  		  <if test="createBy != null and createBy != ''"> and create_by = #{createBy} </if>
+		  		  <if test="gmtCreate != null and gmtCreate != ''"> and gmt_create = #{gmtCreate} </if>
+		  		  <if test="updateBy != null and updateBy != ''"> and update_by = #{updateBy} </if>
+		  		  <if test="gmtUpdate != null and gmtUpdate != ''"> and gmt_update = #{gmtUpdate} </if>
+		  		  <if test="delFlag != null and delFlag != ''"> and del_flag = #{delFlag} </if>
+		  		  <if test="upc != null and upc != ''"> and upc = #{upc} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.octopus.project.domain.TbProductUpcDO" useGeneratedKeys="true" keyProperty="id">
+		insert into tb_product_upc
+		(
+			`product_id`, 
+			`name`, 
+			`type_name`, 
+			`price`, 
+			`sale_price`, 
+			`on_sale`, 
+			`quantity`, 
+			`low_stock_threshold`, 
+			`unity`, 
+			`supplier_reference`, 
+			`create_by`, 
+			`gmt_create`, 
+			`update_by`, 
+			`gmt_update`, 
+			`del_flag`, 
+			`upc`
+		)
+		values
+		(
+			#{productId}, 
+			#{name}, 
+			#{typeName}, 
+			#{price}, 
+			#{salePrice}, 
+			#{onSale}, 
+			#{quantity}, 
+			#{lowStockThreshold}, 
+			#{unity}, 
+			#{supplierReference}, 
+			#{createBy}, 
+			#{gmtCreate}, 
+			#{updateBy}, 
+			#{gmtUpdate}, 
+			#{delFlag}, 
+			#{upc}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.octopus.project.domain.TbProductUpcDO">
+		update tb_product_upc 
+		<set>
+			<if test="productId != null">`product_id` = #{productId}, </if>
+			<if test="name != null">`name` = #{name}, </if>
+			<if test="typeName != null">`type_name` = #{typeName}, </if>
+			<if test="price != null">`price` = #{price}, </if>
+			<if test="salePrice != null">`sale_price` = #{salePrice}, </if>
+			<if test="onSale != null">`on_sale` = #{onSale}, </if>
+			<if test="quantity != null">`quantity` = #{quantity}, </if>
+			<if test="lowStockThreshold != null">`low_stock_threshold` = #{lowStockThreshold}, </if>
+			<if test="unity != null">`unity` = #{unity}, </if>
+			<if test="supplierReference != null">`supplier_reference` = #{supplierReference}, </if>
+			<if test="createBy != null">`create_by` = #{createBy}, </if>
+			<if test="gmtCreate != null">`gmt_create` = #{gmtCreate}, </if>
+			<if test="updateBy != null">`update_by` = #{updateBy}, </if>
+			<if test="gmtUpdate != null">`gmt_update` = #{gmtUpdate}, </if>
+			<if test="delFlag != null">`del_flag` = #{delFlag}, </if>
+			<if test="upc != null">`upc` = #{upc}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="remove">
+		delete from tb_product_upc where id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from tb_product_upc where id in 
+		<foreach item="id" collection="array" open="(" separator="," close=")">
+			#{id}
+		</foreach>
+	</delete>
+
+</mapper>
