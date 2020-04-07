@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 定义一个bean：spring的容器将接管这个对象的创建 -->
+	<bean id="bean1_1" class="com.octopus.springdemo.beans.JavaBean1">
+		<property name="name" value="测试bean的name"></property>
+		<property name="id" value="1000"></property>
+		<property name="tags">
+			<list>
+				<value>标记1</value>
+				<value>标记2</value>
+			</list>
+		</property>
+		<!-- 请在创建id为bean1的类的对象时把一个类型为JavaBean2的对象传给我的bean2属性：依赖注入 -->
+		<property name="bean2" ref="bean2_1"></property>
+	</bean>
+	
+	<bean id="bean2_1" class="com.octopus.springdemo.beans.JavaBean2">
+	<!-- 其他配置 -->
+	</bean>
+	
+	
+	
+	<!-- 演示通过构造函数初始化数据给对象 -->
+	<bean id="bean1_2" class="com.octopus.springdemo.beans.JavaBean1" >
+		<constructor-arg index="0" value="通过构造函数传入值"></constructor-arg>
+		<constructor-arg index="1" value="999"></constructor-arg>
+	</bean>
+	<!-- 导入其他xml -->
+<import resource="beans-jdbc.xml"/>
+</beans>

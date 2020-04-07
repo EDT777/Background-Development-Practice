@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 原装产品 -->
+	<bean id="testBiz" class="com.octopus.aop.impl.TestBizImpl"></bean>
+	<!-- 增强服务也应该是一个spring的bean -->
+	<bean id="beforeAdviceDemo"
+		class="com.octopus.aop.BeforeAdviceDemo">
+	</bean>
+	<bean id="afterAdviceDemo" class="com.octopus.aop.AfterAdviceDemo"></bean>
+	<bean id="aroundAdviceDemo"
+		class="com.octopus.aop.RoundAdviceDemo"></bean>
+	<bean id="exceptionAdiceDemo"
+		class="com.octopus.aop.ExceptionAdviceDemo"></bean>
+
+	<!-- Spring通过所谓的代理的方式实现AOP -->
+	<bean id="testBiz2"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+
+		<!-- 代理的对外名称-接口- -->
+		<property name="interfaces">
+			<list>
+				<value>com.octopus.aop.TestBiz</value>
+			</list>
+		</property><!-- 代理谁-实际目标 -->
+		<property name="target" ref="testBiz"></property>
+		<!-- 你的增强服务有哪些 -->
+		<property name="interceptorNames">
+			<list>
+				<value>beforeAdviceDemo</value>
+				<value>afterAdviceDemo</value>
+				<value>aroundAdviceDemo</value>
+				<value>exceptionAdiceDemo</value>
+			</list>
+		</property>
+	</bean>
+</beans>
