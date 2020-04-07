@@ -40,13 +40,13 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.1.5.RELEASE</version>
+			<version>5.1.14.RELEASE</version>
 		</dependency>
 		<!-- springmvc处理复杂json的依赖 -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.8</version>
+			<version>2.9.10.3</version>
 		</dependency>
 
 
