@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+  <commentGenerator><!-- 不生成注释 -->
+  <property name="suppressAllComments" value="true"/>
+  </commentGenerator>
+  <!-- 数据库连接 -->
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/shop1905" driverClass="com.mysql.jdbc.Driver"
+     password="19980220" userId="root" />
+    <!-- 实体类生成 -->
+    <javaModelGenerator targetPackage="com.octopus.entity" targetProject="mybatis" />
+    <!-- mapper xml配置生成 -->
+    <sqlMapGenerator targetPackage="com.octopus.dao" targetProject="mybatis" />
+    <!-- dao接口生成配置 -->
+    <javaClientGenerator targetPackage="com.octopus.dao" targetProject="mybatis" type="XMLMAPPER" />
+   <!-- 要生成的表 -->
+    <table schema="shop1905" tableName="goods"/>
+       <table schema="shop1905" tableName="goods_type"/>
+          <table schema="shop1905" tableName="order_info"/>
+             <table schema="shop1905" tableName="order_detail"/>
+                <table schema="shop1905" tableName="sys_user"/>
+  </context>
+</generatorConfiguration>

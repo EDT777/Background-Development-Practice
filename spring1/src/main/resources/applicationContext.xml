@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean的定义文件：管家将来管哪些bean -->
+	<bean id="userDao" class="com.octopus.spring1.dao.UserDaoImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	<!-- 依赖管理：让spring根据配置自动为这些bean相互引入 -->
+	<bean id="userBizImpl" class="com.octopus.spring1.biz.UserBizImpl">
+		<property name="userDao" ref="userDao" /><!-- userBiz这个bean的userDao属性，引用了spring中定义的id为userDao的对象 -->
+	</bean>
+
+	<!-- 增强的代码也要声明为bean -->
+	<bean id="logAdvice" class="com.octopus.spring1.advice.LogAdvice" />
+
+	<!-- spring的代理机制实现代码增强 -->
+	<bean id="userBiz"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<!-- interfaces就是将来这个狸猫要变成的样子 -->
+		<property name="interfaces">
+			<list>
+				<value>
+					com.octopus.spring1.biz.UserBiz
+				</value><!-- 狸猫将来以太子的形态出现 -->
+			</list>
+		</property>
+		<!-- 真正的太子还是要实现功能 -->
+		<property name="target" ref="userBizImpl" />
+
+		<!-- 要增强的功能的介入-织入 -->
+		<property name="interceptorNames">
+			<list>
+				<value>logAdvice</value>
+			</list>
+		</property>
+	</bean>
+
+
+
+	<!-- 实际的数据访问要实现的参数 -->
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="jdbc.properties" />
+	</bean>
+	<bean id="dataSource"
+		class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="url" value="${jdbc.url}" />
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver" />
+		<property name="username" value="root" />
+		<property name="password" value="19980220" />
+	</bean>
+
+	<bean id="jdbcTemplate"
+		class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>

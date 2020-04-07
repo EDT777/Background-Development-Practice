@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.octopus.dao.TbAccountDao">
+
+	<select id="get" resultType="com.octopus.entity.TbAccountDO">
+		select `id`,`account_no`,`account_name`,`balance`,`remark` from tb_account where id = #{value}
+	</select>
+
+	<select id="list" resultType="com.octopus.entity.TbAccountDO">
+		select `id`,`account_no`,`account_name`,`balance`,`remark` from tb_account
+        <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="accountNo != null and accountNo != ''"> and account_no = #{accountNo} </if>
+		  		  <if test="accountName != null and accountName != ''"> and account_name = #{accountName} </if>
+		  		  <if test="balance != null and balance != ''"> and balance = #{balance} </if>
+		  		  <if test="remark != null and remark != ''"> and remark = #{remark} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from tb_account
+		 <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="accountNo != null and accountNo != ''"> and account_no = #{accountNo} </if>
+		  		  <if test="accountName != null and accountName != ''"> and account_name = #{accountName} </if>
+		  		  <if test="balance != null and balance != ''"> and balance = #{balance} </if>
+		  		  <if test="remark != null and remark != ''"> and remark = #{remark} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.octopus.entity.TbAccountDO" useGeneratedKeys="true" keyProperty="id">
+		insert into tb_account
+		(
+			`account_no`, 
+			`account_name`, 
+			`balance`, 
+			`remark`
+		)
+		values
+		(
+			#{accountNo}, 
+			#{accountName}, 
+			#{balance}, 
+			#{remark}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.octopus.entity.TbAccountDO">
+		update tb_account 
+		<set>
+			<if test="accountNo != null">`account_no` = #{accountNo}, </if>
+			<if test="accountName != null">`account_name` = #{accountName}, </if>
+			<if test="balance != null">`balance` = #{balance}, </if>
+			<if test="remark != null">`remark` = #{remark}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="remove">
+		delete from tb_account where id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from tb_account where id in 
+		<foreach item="id" collection="array" open="(" separator="," close=")">
+			#{id}
+		</foreach>
+	</delete>
+
+</mapper>
