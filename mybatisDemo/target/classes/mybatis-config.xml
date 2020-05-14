@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "mybatis-config" "../../../mybatis-3-config.dtd" >
+<configuration>
+	<settings>
+		<!-- 开启了延迟加载，对象的创建会被自动代理或者改造 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<!-- 是否一个属性访问触发其他所有延迟加载内容 -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+		<!-- 开启日志打印完整执行过程 -->
+		<setting name="logImpl" value="STDOUT_LOGGING"/>
+		<!-- 二级缓存的全局开关 -->
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+	<environments default="kf">
+		<environment id="kf">
+			<!-- 事务管理配置 -->
+			<transactionManager type="JDBC"></transactionManager>
+			<!-- 数据源也就是连接池的配置：数据库连接参数的配置 -->
+			<dataSource type="POOLED">
+				<!-- 真正放连接参数的地方 -->
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
+				<property name="url" value="jdbc:mysql://localhost:3306/shop1905"/>
+				<property name="username" value="root"/>
+				<property name="password" value="root"/>
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+	<mapper resource="mapper/CommonMapper.xml"/><!-- 引用一个映射文件 -->
+	<mapper resource="mapper/UserInfoMapper.xml"/>
+	<mapper resource="mapper/GoodsMapper.xml"/>
+	<mapper resource="mapper/GoodsTypeMapper.xml"/>
+	<mapper class="com.octopus.mybatisDemo.dao.GoodsDao2"/>
+	</mappers>
+</configuration>

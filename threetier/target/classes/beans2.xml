@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+<!-- 演示spring如何管理dao,biz和controller -->
+<!-- <bean id="goodDao" class="com.octopus.biz.impl.GoodsBizImpl">
+
+</bean>
+
+<bean id="goodBiz" class="com.octopus.biz.impl.GoodsBizImpl">
+<property name="goodsDao" ref="goodsDao"></property>依赖,spring管理依赖的方式：先创建后注入
+</bean> -->
+<!-- spring启动时会自动扫描指定包及其子包中的类 看是否需要(有没有类定义了相关注解)为其创建bean的定义-->
+<context:component-scan base-package="com.octopus"></context:component-scan>
+</beans>

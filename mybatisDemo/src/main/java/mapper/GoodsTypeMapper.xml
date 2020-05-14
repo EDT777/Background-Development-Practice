@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.octopus.mybatisDemo.dao.GoodsTypeDao">
+	
+	<select id="getById" resultMap="baseResultMap">
+		select <include refid="baseColumn"></include>
+		from goods_type where id=#{id}
+	</select>
+	
+	<select id="getById1" resultMap="baseResultMap1">
+		select g.id as gid,name,price,count,type,up_time,state,source_channel,in_price,promtion_price,type_id
+		,t.id as tid ,type_name,parent_id
+		from goods g
+		inner join goods_type t on t.id = g.type_id
+		where t.id=#{id}
+	</select>
+	
+	<sql id="baseColumn">id,type_name,parent_id
+	</sql>
+
+	<resultMap type="com.octopus.mybatisDemo.entity.GoodsType"
+		id="baseResultMap1">
+		<id column="tid" property="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="typeName" column="type_name" />
+		<result property="parentId" column="parent_id" />
+		<collection property="goods"
+			ofType="com.octopus.mybatisDemo.entity.Goods" column="tid">
+			<id column="gid" property="id" javaType="java.lang.Long"
+				jdbcType="BIGINT" />
+			<result property="name" column="name" />
+			<result property="price" column="price" />
+			<result property="count" column="count" />
+			<result property="type" column="type" />
+			<result property="upTime" column="up_time" />
+			<result property="state" column="state" />
+			<result property="sourceChannel" column="source_channel" />
+			<result property="inPrice" column="in_price" />
+			<result property="promtionPrice" column="promtion_price" />
+		</collection>
+	</resultMap>
+	<resultMap type="com.octopus.mybatisDemo.entity.GoodsType"
+		id="baseResultMap">
+		<id column="id" property="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="typeName" column="type_name" />
+		<result property="parentId" column="parent_id" />
+		<collection property="goods" ofType="com.octopus.mybatisDemo.entity.Goods"
+		column="id" select ="selectGoodsByTypeId" fetchType="lazy"></collection>
+	</resultMap>
+	
+	<resultMap type="com.octopus.mybatisDemo.entity.Goods"
+		id="baseGoodsMap">
+		<id column="id" property="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="name" column="name" />
+		<result property="price" column="price" />
+		<result property="count" column="count" />
+		<result property="type" column="type" />
+		<result property="upTime" column="up_time" />
+		<result property="state" column="state" />
+		<result property="sourceChannel" column="source_channel" />
+		<result property="inPrice" column="in_price" />
+		<result property="promtionPrice" column="promtion_price" />
+		
+	</resultMap>
+	
+	<select id="selectGoodsByTypeId" resultMap="baseGoodsMap">
+	select <include refid="com.octopus.mybatisDemo.dao.GoodsDao.baseColumn"/>
+	from goods 
+	where type_id = #{typeId}
+	</select>
+</mapper>

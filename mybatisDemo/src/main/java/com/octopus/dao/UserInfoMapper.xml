@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.octopus.dao.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.octopus.entity.UserInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_pwd" jdbcType="VARCHAR" property="userPwd" />
+    <result column="user_status" jdbcType="INTEGER" property="userStatus" />
+    <result column="user_delete" jdbcType="INTEGER" property="userDelete" />
+    <result column="user_point" jdbcType="INTEGER" property="userPoint" />
+    <result column="user_birthday" jdbcType="TIMESTAMP" property="userBirthday" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, user_name, user_pwd, user_status, user_delete, user_point, user_birthday
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from user_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.octopus.entity.UserInfo">
+    insert into user_info (id, user_name, user_pwd, 
+      user_status, user_delete, user_point, 
+      user_birthday)
+    values (#{id,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{userPwd,jdbcType=VARCHAR}, 
+      #{userStatus,jdbcType=INTEGER}, #{userDelete,jdbcType=INTEGER}, #{userPoint,jdbcType=INTEGER}, 
+      #{userBirthday,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.octopus.entity.UserInfo">
+    insert into user_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userName != null">
+        user_name,
+      </if>
+      <if test="userPwd != null">
+        user_pwd,
+      </if>
+      <if test="userStatus != null">
+        user_status,
+      </if>
+      <if test="userDelete != null">
+        user_delete,
+      </if>
+      <if test="userPoint != null">
+        user_point,
+      </if>
+      <if test="userBirthday != null">
+        user_birthday,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userPwd != null">
+        #{userPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="userStatus != null">
+        #{userStatus,jdbcType=INTEGER},
+      </if>
+      <if test="userDelete != null">
+        #{userDelete,jdbcType=INTEGER},
+      </if>
+      <if test="userPoint != null">
+        #{userPoint,jdbcType=INTEGER},
+      </if>
+      <if test="userBirthday != null">
+        #{userBirthday,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.octopus.entity.UserInfo">
+    update user_info
+    <set>
+      <if test="userName != null">
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userPwd != null">
+        user_pwd = #{userPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="userStatus != null">
+        user_status = #{userStatus,jdbcType=INTEGER},
+      </if>
+      <if test="userDelete != null">
+        user_delete = #{userDelete,jdbcType=INTEGER},
+      </if>
+      <if test="userPoint != null">
+        user_point = #{userPoint,jdbcType=INTEGER},
+      </if>
+      <if test="userBirthday != null">
+        user_birthday = #{userBirthday,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.octopus.entity.UserInfo">
+    update user_info
+    set user_name = #{userName,jdbcType=VARCHAR},
+      user_pwd = #{userPwd,jdbcType=VARCHAR},
+      user_status = #{userStatus,jdbcType=INTEGER},
+      user_delete = #{userDelete,jdbcType=INTEGER},
+      user_point = #{userPoint,jdbcType=INTEGER},
+      user_birthday = #{userBirthday,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

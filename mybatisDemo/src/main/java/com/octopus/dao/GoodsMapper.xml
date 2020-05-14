@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.octopus.dao.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.octopus.entity.Goods">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="up_time" jdbcType="TIMESTAMP" property="upTime" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="source_channel" jdbcType="VARCHAR" property="sourceChannel" />
+    <result column="in_price" jdbcType="DECIMAL" property="inPrice" />
+    <result column="promtion_price" jdbcType="DECIMAL" property="promtionPrice" />
+    <result column="type_id" jdbcType="BIGINT" property="typeId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, price, count, type, up_time, state, source_channel, in_price, promtion_price, 
+    type_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from goods
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from goods
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.octopus.entity.Goods">
+    insert into goods (id, name, price, 
+      count, type, up_time, 
+      state, source_channel, in_price, 
+      promtion_price, type_id)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL}, 
+      #{count,jdbcType=INTEGER}, #{type,jdbcType=VARCHAR}, #{upTime,jdbcType=TIMESTAMP}, 
+      #{state,jdbcType=TINYINT}, #{sourceChannel,jdbcType=VARCHAR}, #{inPrice,jdbcType=DECIMAL}, 
+      #{promtionPrice,jdbcType=DECIMAL}, #{typeId,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.octopus.entity.Goods">
+    insert into goods
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="count != null">
+        count,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="upTime != null">
+        up_time,
+      </if>
+      <if test="state != null">
+        state,
+      </if>
+      <if test="sourceChannel != null">
+        source_channel,
+      </if>
+      <if test="inPrice != null">
+        in_price,
+      </if>
+      <if test="promtionPrice != null">
+        promtion_price,
+      </if>
+      <if test="typeId != null">
+        type_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="count != null">
+        #{count,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="upTime != null">
+        #{upTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=TINYINT},
+      </if>
+      <if test="sourceChannel != null">
+        #{sourceChannel,jdbcType=VARCHAR},
+      </if>
+      <if test="inPrice != null">
+        #{inPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="promtionPrice != null">
+        #{promtionPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="typeId != null">
+        #{typeId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.octopus.entity.Goods">
+    update goods
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="count != null">
+        count = #{count,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="upTime != null">
+        up_time = #{upTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="state != null">
+        state = #{state,jdbcType=TINYINT},
+      </if>
+      <if test="sourceChannel != null">
+        source_channel = #{sourceChannel,jdbcType=VARCHAR},
+      </if>
+      <if test="inPrice != null">
+        in_price = #{inPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="promtionPrice != null">
+        promtion_price = #{promtionPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="typeId != null">
+        type_id = #{typeId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.octopus.entity.Goods">
+    update goods
+    set name = #{name,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DECIMAL},
+      count = #{count,jdbcType=INTEGER},
+      type = #{type,jdbcType=VARCHAR},
+      up_time = #{upTime,jdbcType=TIMESTAMP},
+      state = #{state,jdbcType=TINYINT},
+      source_channel = #{sourceChannel,jdbcType=VARCHAR},
+      in_price = #{inPrice,jdbcType=DECIMAL},
+      promtion_price = #{promtionPrice,jdbcType=DECIMAL},
+      type_id = #{typeId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

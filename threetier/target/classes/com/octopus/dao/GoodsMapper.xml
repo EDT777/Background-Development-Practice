@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.octopus.dao.GoodsDao" >
+<select id="findBymap" resultMap="goodsMap" >
+select * from goods where name like #{param1.name}
+
+</select>
+<resultMap type="com.octopus.entiy.Goods" id="goodsMap">
+<id property="id" column="id"/>
+<result property="name" column="name" />
+<result property="price" column="price" />
+<result property="count" column="count" />
+<result property="type" column="type" />
+<result property="upTime" column="up_time" />
+<result property="state" column="state" />
+<result property="sourceChannel" column="source_channel" />
+<result property="inPrice" column="in_Pric" />
+<result property="promtionPrice" column="promtion_Price" />
+<result property="typeId" column="type_Id" />
+
+
+</resultMap>
+</mapper>

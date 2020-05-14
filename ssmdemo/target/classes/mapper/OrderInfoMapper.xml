@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.octopus.dao.OrderInfoDao">
+
+	<select id="get" resultType="com.octopus.entity.OrderInfoDO">
+		select `id`,`mobile`,`address`,`contact_name`,`make_date`,`pay_date`,`total_price`,`user_id`,`state`,`remark` from order_info where id = #{value}
+	</select>
+
+	<select id="list" resultType="com.octopus.entity.OrderInfoDO">
+		select `id`,`mobile`,`address`,`contact_name`,`make_date`,`pay_date`,`total_price`,`user_id`,`state`,`remark` from order_info
+        <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="mobile != null and mobile != ''"> and mobile = #{mobile} </if>
+		  		  <if test="address != null and address != ''"> and address = #{address} </if>
+		  		  <if test="contactName != null and contactName != ''"> and contact_name = #{contactName} </if>
+		  		  <if test="makeDate != null and makeDate != ''"> and make_date = #{makeDate} </if>
+		  		  <if test="payDate != null and payDate != ''"> and pay_date = #{payDate} </if>
+		  		  <if test="totalPrice != null and totalPrice != ''"> and total_price = #{totalPrice} </if>
+		  		  <if test="userId != null and userId != ''"> and user_id = #{userId} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="remark != null and remark != ''"> and remark = #{remark} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from order_info
+		 <where>  
+		  		  <if test="id != null and id != ''"> and id = #{id} </if>
+		  		  <if test="mobile != null and mobile != ''"> and mobile = #{mobile} </if>
+		  		  <if test="address != null and address != ''"> and address = #{address} </if>
+		  		  <if test="contactName != null and contactName != ''"> and contact_name = #{contactName} </if>
+		  		  <if test="makeDate != null and makeDate != ''"> and make_date = #{makeDate} </if>
+		  		  <if test="payDate != null and payDate != ''"> and pay_date = #{payDate} </if>
+		  		  <if test="totalPrice != null and totalPrice != ''"> and total_price = #{totalPrice} </if>
+		  		  <if test="userId != null and userId != ''"> and user_id = #{userId} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="remark != null and remark != ''"> and remark = #{remark} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.octopus.entity.OrderInfoDO" useGeneratedKeys="true" keyProperty="id">
+		insert into order_info
+		(
+			`mobile`, 
+			`address`, 
+			`contact_name`, 
+			`make_date`, 
+			`pay_date`, 
+			`total_price`, 
+			`user_id`, 
+			`state`, 
+			`remark`
+		)
+		values
+		(
+			#{mobile}, 
+			#{address}, 
+			#{contactName}, 
+			#{makeDate}, 
+			#{payDate}, 
+			#{totalPrice}, 
+			#{userId}, 
+			#{state}, 
+			#{remark}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.octopus.entity.OrderInfoDO">
+		update order_info 
+		<set>
+			<if test="mobile != null">`mobile` = #{mobile}, </if>
+			<if test="address != null">`address` = #{address}, </if>
+			<if test="contactName != null">`contact_name` = #{contactName}, </if>
+			<if test="makeDate != null">`make_date` = #{makeDate}, </if>
+			<if test="payDate != null">`pay_date` = #{payDate}, </if>
+			<if test="totalPrice != null">`total_price` = #{totalPrice}, </if>
+			<if test="userId != null">`user_id` = #{userId}, </if>
+			<if test="state != null">`state` = #{state}, </if>
+			<if test="remark != null">`remark` = #{remark}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="remove">
+		delete from order_info where id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from order_info where id in 
+		<foreach item="id" collection="array" open="(" separator="," close=")">
+			#{id}
+		</foreach>
+	</delete>
+
+</mapper>

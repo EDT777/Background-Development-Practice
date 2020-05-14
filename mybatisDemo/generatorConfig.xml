@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+  <commentGenerator>
+  <property name="suppressAllComments" value="true"/><!-- 覆盖注释生成策略，默认不再不生成 -->
+  </commentGenerator>
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/shop1905" driverClass="com.mysql.jdbc.Driver"
+     password="root" userId="root" />
+     <!-- 生成实体类的参数 -->
+    <javaModelGenerator targetPackage="com.octopus.entity" targetProject="mybatisDemo" />
+    <!-- 生成mapper.xml的参数 -->
+    <sqlMapGenerator targetPackage="com.octopus.dao" targetProject="mybatisDemo" />
+    <!-- 生成dao接口的参数 -->
+    <javaClientGenerator targetPackage="com.octopus.dao" targetProject="mybatisDemo" type="XMLMAPPER" />
+    <!-- 单个表的生成参数 -->
+    <table schema="shop1905" tableName="user_info" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+    <table schema="shop1905" tableName="sys_user" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+    <table schema="shop1905" tableName="goods_type" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+    <table schema="shop1905" tableName="goods" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+    <table schema="shop1905" tableName="order_info" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+    <table schema="shop1905" tableName="order_detail" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+  </context>
+</generatorConfiguration>

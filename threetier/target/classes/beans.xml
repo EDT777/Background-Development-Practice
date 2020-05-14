@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- 定义了一个需要spring管理的Javabean类 -->
+<bean id="goods1" scope="singleton" class="com.octopus.entiy.Goods">
+<property name="type" value="女装"></property>
+</bean>
+<!-- scope="prototype"意味着每次调用getbean方法获取对象时都会新创建一个bean的实例 -->
+<bean id="goods2" scope="prototype" class="com.octopus.entiy.Goods">
+<property name="type" value="男装"></property>
+</bean>
+
+<!-- javaBean2类的bean声明 -->
+<bean id="javaBean2"  class="com.octopus.entiy.javaBean2">
+<!-- 使用构造方法在创建对象时传递数据-->
+<constructor-arg index="0" value="100"></constructor-arg>
+<constructor-arg index="1" value="通过构造方法传入值"></constructor-arg>
+<!-- <property name="name" value="测试"></property>
+<property name="id" value="77"></property> -->
+<property name="score" >
+<array>
+<value>99</value>
+<value>97</value>
+<value>95</value>
+</array><!--数组属性的主人,注意使用array  -->
+</property>
+<!-- 对象的属性设置,使用的语法关键是ref 引用其他对象-->
+<property name="goods" ref="goods1"></property>
+</bean>
+
+
+</beans>

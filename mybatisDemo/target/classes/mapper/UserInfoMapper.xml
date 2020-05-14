@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.octopus.mybatisDemo.dao.UserInfoDao">
+	<select id="findAllUsers" resultMap="baseResultMap">
+		<include refid="baseColumns" />
+		from user_info
+	</select>
+
+
+	<sql id="baseColumns">select
+		`id`,`user_name`,user_pwd,user_status,user_point,user_delete,user_birthday
+	</sql>
+
+	<resultMap type="com.octopus.mybatisDemo.entity.UserInfo"
+		id="baseResultMap">
+		<id property="id" javaType="java.lang.Long" jdbcType="BIGINT"
+			column="id" /><!-- 专门表示数据的主键列 -->
+		<result property="userName" column="user_name" />
+		<result property="userPwd" column="user_pwd" />
+		<result property="userStatus" column="user_status" />
+		<result property="userDelete" column="user_delete" />
+		<result property="userPoint" column="user_point" />
+		<result property="userBirthday" column="user_birthday" />
+
+
+	</resultMap>
+
+
+	<!-- 这是一个参数的查询，参数名随意 -->
+	<select id="findByUserName" parameterType="java.lang.String"
+		resultMap="baseResultMap">
+		<include refid="baseColumns" />
+		from user_info
+		where user_name = #{userName}
+	</select>
+
+	<select id="findByUserNameAndStatus" resultMap="baseResultMap">
+		<include refid="baseColumns" />
+		from user_info
+		where user_name = #{param1} and user_status = #{param2}
+	</select>
+	<select id="findByEntity" resultMap="baseResultMap">
+		<include refid="baseColumns" />
+		from user_info
+		where user_name = #{userName} and user_status =
+		#{userStatus}
+	</select>
+
+	<select id="findByMap" resultMap="baseResultMap">
+		<include refid="baseColumns" />
+		from user_info
+		<where>
+
+			<!-- 条件是：用户名不是null也不是空字符串 -->
+			<if test="userName!=null and userName!=''">
+				and user_name=#{userName}
+			</if>
+			<if test="userPwd!=null and userPwd!=''">
+				and user_pwd=#{userPwd}
+			</if>
+			<if test="userStatus!=null and userStatus!=''">
+				and user_status=#{userStatus}
+			</if>
+		</where>
+		<if test="orderby !=null and orderby!=''">
+			order by ${orderby}
+		</if>
+		<if
+			test="offset !=null and offset!='' and  limit!=null and limit!=''">
+			limit ${offset},${limit}
+		</if>
+
+	</select>
+
+	<delete id="delete">
+		delete from user_info where id = #{id}
+	</delete>
+	<update id="update">
+		update user_info
+		<set>
+			<if test="userName!=null and userName!=''">
+				user_name=#{userName},
+			</if>
+			<if test="userPwd!=null and userPwd!=''">
+				user_pwd=#{userPwd},
+			</if>
+			<if test="userStatus!=null and userStatus!=''">
+				user_status=#{userStatus},
+			</if>
+			<if test="userDelete!=null and userDelete!=''">
+				user_delete=#{userDelete},
+			</if>
+			<if test="userPoint!=null and userPoint!=''">
+				user_point=#{userPoint},
+			</if>
+			<if test="userBirthday!=null ">
+				user_birthday=#{userBirthday},
+			</if>
+		</set>
+		where id = #{id}
+	</update>
+
+	<insert id="insertNew"
+		parameterType="com.octopus.mybatisDemo.entity.UserInfo">
+		<selectKey keyProperty="id" keyColumn="id" order="AFTER"
+			resultType="java.lang.Long">
+			select last_insert_id()
+		</selectKey>
+		insert into user_info
+		(`user_name`,user_pwd,user_status,user_point,user_delete,user_birthday)
+		values(#{userName},#{userPwd},#{userStatus},#{userPoint},#{userDelete},#{userBirthday})
+	</insert>
+
+	<select id="findByIds" resultMap="baseResultMap">
+		<include refid="baseColumns" /> 
+		from user_info
+		where id in
+		<foreach collection="array" item="id" open="(" close=")"
+			separator=",">#{id}</foreach>
+	</select>
+	
+	<select id="findByIds1" resultMap="baseResultMap">
+		<include refid="baseColumns" /> 
+		from user_info
+		where id in
+		<foreach collection="collection" item="id" open="(" close=")"
+			separator=",">#{id}</foreach>
+	</select>
+
+	<insert id="insert" parameterType="java.lang.String">
+		${value}
+	</insert>
+</mapper>
