@@ -1,0 +1,6 @@
+输入数字a
+<input bindinput="getA" class="input"></input>
+输入数字b
+<input bindinput="getB" class="input"></input>
+<button bindtap="add">提交Java后台并计算</button>
+<text>{{result}}</text>

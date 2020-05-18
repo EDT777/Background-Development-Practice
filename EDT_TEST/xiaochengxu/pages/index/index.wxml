@@ -1,0 +1,6 @@
+<button bindtap="getData">点击按钮获取数据</button>
+<text>{{dataList}}</text>
+<button bindtap="tijiao">提交数据到Java后台</button>
+<button bindtap="post">post请求</button>
+<input bindinput="inputName" class="input"></input>
+<button bindtap="postName">post提交用户输入的姓名</button>

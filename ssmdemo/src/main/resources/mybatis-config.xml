@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "mybatis-config" "../../../mybatis-3-config.dtd" >
+<configuration>
+	<!-- 实现日志输出到logback -->
+	<settings>
+		<!-- <setting name="logImpl" value="STDOUT_LOGGING" /> -->
+		<setting name="lazyLoadingEnabled" value="true" />
+		<setting name="aggressiveLazyLoading" value="false" />
+		<setting name="lazyLoadTriggerMethods" value="equals" />
+		<setting name="cacheEnabled" value="true" />
+		<!-- 让mybatis自动将xxx_xx的列名映射到xxxXx的属性名 -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	
+
+</configuration>
