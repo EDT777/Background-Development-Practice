@@ -1,0 +1,326 @@
+/**
+ * 信息流资讯
+ * @author hw
+ */
+entity InfoStreamItem {
+	/** 商品标题 */
+	title String
+  /** 类型 */
+	type String
+  /**简介/摘要*/
+  digist String
+  /**内容 */
+  content String
+  /**创建人*/
+  createUser String
+  /**最后更新时间*/
+  lastUpdateDate ZonedDateTime
+  /**更新人*/
+  updateUser String
+  /** 创建时间 */
+  createDate ZonedDateTime
+  /** 标签*/
+  tags String
+
+  /**内容类型*/
+  contentType ItemResourceType
+
+}
+/**资讯关联的商品*/
+entity RelativeGoodsItem{
+  /**平台 */
+  platform String
+  /**原始地址*/
+  url String
+  /**商品id */
+  itemId String
+  /**是否已经转链 */
+  translated Boolean
+  /**转链后地址 */
+  translatedUrl String
+  /**主图 */
+  mainImage String
+  /** 小图*/
+  smallImages String
+  /**标题 */
+  title String
+  /**店铺名称 */
+  shopName String
+  /**销量 */
+  sellCount Integer
+  /**价格*/
+  price Double
+  /** 折扣价格*/
+  zkPrice Double
+  /**佣金 */
+  commssion Double
+  /** 佣金比例 */
+  commssionRate Double
+  /**推荐语*/
+  description String
+  /**优惠券 */
+  coupon Double
+
+
+}
+
+/**
+ * 内容评论及回复.
+ */
+entity Reply {
+  /** 标题 */
+  title String
+  /** 内容 */
+  content String
+  /** 审核 */
+  auditStatus Boolean
+  /** 发表时间 */
+  createData ZonedDateTime
+  /** 审核时间 */
+  auditDate ZonedDateTime
+  /** 发表用户 */
+  createUser String
+  /** 审核人*/
+  auditUser Long
+  /** 评论人*/
+  replyUserId Long
+  /** 评论人昵称*/
+  replyUserNickName String
+  /**是否已经删除*/
+  delFlag Boolean
+}
+
+/**
+ * 资讯作者.
+ * @author A true hipster
+ */
+entity Author {
+  /** 名称 */
+  name String
+  /** 头像 */
+  pct String
+  /** 是否有效*/
+  valid Boolean
+  /**入驻时间 */
+  createDate ZonedDateTime
+  /**等级 */
+  level Integer
+
+}
+
+
+/**
+资讯内容，比如视频，文章，图片等
+*/
+entity ResourceItem{
+
+  type ItemResourceType
+  /**平台，比如alivod等 */
+  platform String
+  /**在平台上的资源id，比如aliyun的点播的videoId，oss的对象id */
+  resourceId String
+  /** 是否已经完成转码*/
+  transcodeStatus Boolean
+  /** 是否已经成功上传*/
+  uploadStatus Boolean
+  /**上传时间*/
+  updateDate ZonedDateTime
+  /**是否通过审核*/
+  auditStatus Boolean
+  /** 最后审核操作时间*/
+  auditDate ZonedDateTime
+  /**审核信息*/
+  auditInfo String
+  /**内容大小，字节*/
+  fileSize Long
+  /**内容长度，比如时长*/
+  contentSize Long
+  /**来源-平台上传/用户上传*/
+  source String
+  /**地址*/
+  url String
+  /**地址过期时间*/
+  urlExpire Long
+  /**资源参数，比如视频长度，码率等，json格式 */
+  params String
+  /** 审核人*/
+  auditUser Long
+  /**是否已经删除*/
+  delFlag Boolean
+
+}
+
+
+
+
+
+/**
+ * 资讯信息访问记录.
+ * @author hw
+ */
+entity InfoItemVisitData {
+  /** 访问用户 */
+  userId String
+  /**设备号，对于手机就是IMEI*/
+  deviceNo String
+  /**访问时间*/
+  date LocalDate
+  /*访问方式*/
+  source VisitSource
+  /**访问行为，比如滑动，点击，停留*/
+  action String
+  /**商品信息*/
+  goods Long
+  /**终端类型*/
+  termimal String
+
+}
+
+/**
+ * 信息流项目访问的统计信息.
+ * @author hw
+ */
+entity InfoItemVisitDataStat {
+   /** 点击次数次数 */
+  clickCount Long
+  /**开始统计时间*/
+  startDate LocalDate
+  /**终止统计时间*/
+  endDate LocalDate
+  /**访问方式*/
+  source VisitSource
+  /**终端类型*/
+  termimal String
+  /**评论数*/
+  replyCount Integer
+  /**点赞数量*/
+  starCount Integer
+
+}
+
+/**
+ * 评论或回复访问的统计信息.
+ * @author hw
+ */
+entity ReplyVisitDataStat {
+   /** 点击次数次数 */
+  clickCount Long
+  /**开始统计时间*/
+  startDate LocalDate
+  /**终止统计时间*/
+  endDate LocalDate
+  /**访问方式*/
+  source VisitSource
+  /**终端类型*/
+  termimal String
+  /**评论数*/
+  replyCount Integer
+  /**点赞数量*/
+  starCount Integer
+
+
+}
+
+/**作者关注数据*/
+entity AuthorFavourData{
+  /**用户id */
+  userId Long
+  /**关注时间*/
+  createDate ZonedDateTime
+
+}
+
+/**资讯、评论点赞数据*/
+entity StreamItemStarData{
+  /**用户id */
+  userId Long
+  /**关注时间*/
+  createDate ZonedDateTime
+  /**类型，1为资讯，2为评论*/
+  type Integer
+  /** 资讯id*/
+  itemId String
+  /**回复id */
+  replayId String
+  /**是否有效*/
+  valid Boolean
+  /** 动作类型 1表示点赞，-1表示踩*/
+  starType Integer
+
+}
+
+
+
+
+
+/**
+访问来源
+*/
+enum VisitSource{
+  SEARCH, LIST, PUSH
+}
+
+
+/**用户内容收藏*/
+entity UserContentCollection{
+    /**用户*/
+    userId Long
+     /**平台*/
+    platform String
+     /**链接*/
+    link String
+     /**创建日期*/
+    createDate ZonedDateTime
+     /**图片地址*/
+    pctUrl String
+     /**有效*/
+    valid Boolean
+
+}
+
+
+
+ /**视频、音频、图集、图文、广告活动、广告单品、封面、其他，暂不应该出现*/
+enum ItemResourceType{
+
+  VIDEO,
+  AUDIO,
+  IMAGE,
+  ARTICAL,
+  ACTIVITY,
+  SINGLE_PRODUCT,
+  COVER,
+  OTHER
+
+}
+
+/**
+ * One to many relationship.
+ */
+relationship OneToMany {
+  InfoStreamItem{resource} to ResourceItem,
+  InfoStreamItem{cover} to ResourceItem
+  InfoStreamItem{goods} to RelativeGoodsItem
+
+}
+
+/**
+ * Many to one relationship.
+ */
+relationship ManyToOne {
+  /**评论目标为另外一个评论 */
+  Reply{replyTo} to Reply,
+  /**评论目标为一个媒体内容 */
+  Reply{item} to InfoStreamItem,
+  /**媒体作者 */
+  InfoStreamItem{author} to Author
+  /**对作者的关注*/
+  AuthorFavourData{author} to Author
+  
+
+}
+
+
+dto * with mapstruct
+service * with serviceClass
+paginate * with pagination

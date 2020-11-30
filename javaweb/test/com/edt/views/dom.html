@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom</title>
+    <script type="text/javascript">
+        //第一步是获取到文档对象 Document对象
+        // 在Js中 Document 由浏览器Js引擎来创建
+        //浏览器实现创建一个空的Document 对象,赋值给一个变量document
+        //document的内容由浏览器在加载完整个html页面时区调用\
+        //在Js 中提供一个变量, 可以在浏览器加载完整个html页面去调用
+        //在浏览器加载完整个html 页面之后再去调用函数
+        window.onload = function () {
+            //怎么在这里获取元素标签,操作元素标签
+            var div1El = document.getElementById("div1"); //通过元素id获取 元素对象
+            console.log(div1El);
+            var divEls = document.getElementsByClassName("divClz");//class值可以重复
+            console.log(divEls[0]);
+            var div = document.getElementsByTagName("div");//通过标签名获取对象
+            console.log(div);
+            //1.获取属性========================================
+            console.log(div1El.id);
+            console.log(div1El["id"]);
+            console.log(div1El.getAttribute("id"));
+            //class是关键字 所以用className获取
+            console.log(div1El.className);
+            console.log(div1El["className"])
+            console.log(div1El.getAttribute("class"));
+            //自定义属性只能通过getter的方式去获取
+            console.log(div1El.getAttribute("oo"));
+            //获取属性中的属性 带有特殊符号- 只能使用其他的单词
+            console.log(div1El.style.backgroundColor);
+            console.log(div1El.style["backgroundColor"]);
+            console.log(div1El.style.getPropertyValue("background-color"));
+            //2.设置属性====================================
+            div1El.id = "newDiv1";
+            div1El["id"] = "newDiv2";
+            div1El.setAttribute("id", "newDiv3");
+            div1El.className = "newDivClass";
+            //设置自定义属性
+            div1El.setAttribute("oo", "啊啊啊");
+            //属性名和属性值相同的属性,此时使用js获取到的属性值是true/false
+            var hobbyEl = document.getElementById("hobby");
+            console.log(hobbyEl.checked); //true
+            hobbyEl.checked = false;
+        }
+
+    </script>
+    >
+</head>
+<body>
+<div id="div1" class="divClz" oo="哈哈" style="background-color: green">div 1</div>
+<div id="div2" class="divClz">div 2</div>
+<div id="div3">div 3</div>
+<input id="hobby" type="checkbox" name="hobby" checked="checked">
+</body>
+</html>

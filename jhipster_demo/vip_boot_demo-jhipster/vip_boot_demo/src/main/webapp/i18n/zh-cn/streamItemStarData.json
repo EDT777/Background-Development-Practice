@@ -1,0 +1,37 @@
+{
+  "vip1App": {
+    "streamItemStarData": {
+      "home": {
+        "title": "Stream Item Star Data",
+        "createLabel": "创建新 Stream Item Star Data",
+        "createOrEditLabel": "创建或编辑 Stream Item Star Data",
+        "notFound": "No Stream Item Star Data found"
+      },
+      "created": "Stream Item Star Data {{ param }} 创建成功",
+      "updated": "Stream Item Star Data {{ param }} 更新成功",
+      "deleted": "Stream Item Star Data {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Stream Item Star Data {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Stream Item Star Data"
+      },
+      "userId": "User Id",
+      "createDate": "Create Date",
+      "type": "Type",
+      "itemId": "Item Id",
+      "replayId": "Replay Id",
+      "valid": "Valid",
+      "starType": "Star Type",
+      "help": {
+        "userId": "用户id",
+        "createDate": "关注时间",
+        "type": "类型，1为资讯，2为评论",
+        "itemId": "资讯id",
+        "replayId": "回复id",
+        "valid": "是否有效",
+        "starType": "动作类型 1表示点赞，-1表示踩"
+      }
+    }
+  }
+}

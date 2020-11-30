@@ -1,0 +1,37 @@
+{
+    "name": "AuthorFavourData",
+    "fields": [
+        {
+            "fieldName": "userId",
+            "javadoc": "用户id",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "createDate",
+            "javadoc": "关注时间",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "author",
+            "otherEntityRelationshipName": "authorFavourData",
+            "javadoc": "对作者的关注",
+            "relationshipName": "author",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531083600",
+    "javadoc": "作者关注数据",
+    "entityTableName": "author_favour_data",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

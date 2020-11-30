@@ -1,0 +1,43 @@
+{
+    "name": "Author",
+    "fields": [
+        {
+            "fieldName": "name",
+            "javadoc": "名称",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pct",
+            "javadoc": "头像",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "valid",
+            "javadoc": "是否有效",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "createDate",
+            "javadoc": "入驻时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "level",
+            "javadoc": "等级",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200531083100",
+    "javadoc": "资讯作者.\\n@author A true hipster",
+    "entityTableName": "author",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>img</title>
+    <script type="text/javascript">
+
+        function fun1() {
+            var img =document.getElementById("imgId");
+            img.src = "image/b.jpg";
+        }
+        function fun2() {
+            var img1 =document.getElementById("imgId");
+                img1.src="image/a.jpg";
+        }
+    </script>
+
+</head>
+
+<body>
+        <img id="imgId" src="image/a.jpg" onmouseover="fun1()" onmouseleave="fun2()" />
+</body>
+</html>

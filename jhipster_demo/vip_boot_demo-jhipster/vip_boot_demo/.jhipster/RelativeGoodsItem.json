@@ -1,0 +1,113 @@
+{
+    "name": "RelativeGoodsItem",
+    "fields": [
+        {
+            "fieldName": "platform",
+            "javadoc": "平台",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "javadoc": "原始地址",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "itemId",
+            "javadoc": "商品id",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "translated",
+            "javadoc": "是否已经转链",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "translatedUrl",
+            "javadoc": "转链后地址",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mainImage",
+            "javadoc": "主图",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "smallImages",
+            "javadoc": "小图",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "javadoc": "标题",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "shopName",
+            "javadoc": "店铺名称",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sellCount",
+            "javadoc": "销量",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "price",
+            "javadoc": "价格",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "zkPrice",
+            "javadoc": "折扣价格",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "commssion",
+            "javadoc": "佣金",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "commssionRate",
+            "javadoc": "佣金比例",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "description",
+            "javadoc": "推荐语",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "coupon",
+            "javadoc": "优惠券",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "relativeGoodsItem",
+            "relationshipName": "streamItem",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "goods",
+            "relationshipName": "infoStreamItem",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531082900",
+    "javadoc": "资讯关联的商品",
+    "entityTableName": "relative_goods_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

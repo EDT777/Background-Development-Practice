@@ -1,0 +1,48 @@
+{
+    "name": "UserContentCollection",
+    "fields": [
+        {
+            "fieldName": "userId",
+            "javadoc": "用户",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "platform",
+            "javadoc": "平台",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "link",
+            "javadoc": "链接",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createDate",
+            "javadoc": "创建日期",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "pctUrl",
+            "javadoc": "图片地址",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "valid",
+            "javadoc": "有效",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200531083800",
+    "javadoc": "用户内容收藏",
+    "entityTableName": "user_content_collection",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

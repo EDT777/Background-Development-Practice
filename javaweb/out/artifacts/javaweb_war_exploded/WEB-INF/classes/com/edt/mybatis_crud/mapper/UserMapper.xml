@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--配置SQL 语句和类型的映射-->
+<!--  namespace : 名称空间
+唯一区分某个 Mapper.xml文件
+  推荐书写值的格式: 包名.文件名(不带拓展名)
+ -->
+<mapper namespace="com.edt.mybatis_crud.mapper.UserMapper">
+    <!--    插入操作
+    id:起一个唯一的名称
+    parameterType: 参数类型,可以不需要配置
+    useGeneratedKeys : 是否需要获取生成的主键值,true :需要 , false: 不需要(默认)
+   keyProperty : 指定存数据的属性名(传入对象的属性)
+    -->
+    <insert id="insert" parameterType="User" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+            INSERT INTO user(name,age,salary) VALUES (#{name},#{age},#{salary})
+        </insert>
+
+    <update id="update">
+        UPDATE user set name =#{name},age=#{age},salary=#{salary} where id =#{id}
+    </update>
+<!-- 根据用户Id 删除用户
+ #{} 传入的数据如果是普通类型,那么对于获取数据时变量名是没有限定的
+ 但是 建议 书写时要见名知义
+ -->
+
+<!--    通过id 去查询用户信息
+    resultType : 只有查询标签拥有 resultType 属性 , 通知mybatis 把查询出来一条数据封装成哪个类型的对象
+
+-->
+    <select id="selectOne" resultType="User">
+        select  * from  user where id = #{id}
+    </select>
+
+    <delete id="delete">
+        delete  from  user where id = #{id}
+    </delete>
+
+    <select id="selectList" resultType="com.edt.mybatis_crud.domain.User">
+        select  * from user
+    </select>
+</mapper>
+
+

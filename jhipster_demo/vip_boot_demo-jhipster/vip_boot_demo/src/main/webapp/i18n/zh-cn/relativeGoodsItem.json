@@ -1,0 +1,57 @@
+{
+  "vip1App": {
+    "relativeGoodsItem": {
+      "home": {
+        "title": "Relative Goods Items",
+        "createLabel": "创建新 Relative Goods Item",
+        "createOrEditLabel": "创建或编辑 Relative Goods Item",
+        "notFound": "No Relative Goods Items found"
+      },
+      "created": "Relative Goods Item {{ param }} 创建成功",
+      "updated": "Relative Goods Item {{ param }} 更新成功",
+      "deleted": "Relative Goods Item {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Relative Goods Item {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Relative Goods Item"
+      },
+      "platform": "Platform",
+      "url": "Url",
+      "itemId": "Item Id",
+      "translated": "Translated",
+      "translatedUrl": "Translated Url",
+      "mainImage": "Main Image",
+      "smallImages": "Small Images",
+      "title": "Title",
+      "shopName": "Shop Name",
+      "sellCount": "Sell Count",
+      "price": "Price",
+      "zkPrice": "Zk Price",
+      "commssion": "Commssion",
+      "commssionRate": "Commssion Rate",
+      "description": "Description",
+      "coupon": "Coupon",
+      "streamItem": "Stream Item",
+      "infoStreamItem": "Info Stream Item",
+      "help": {
+        "platform": "平台",
+        "url": "原始地址",
+        "itemId": "商品id",
+        "translated": "是否已经转链",
+        "translatedUrl": "转链后地址",
+        "mainImage": "主图",
+        "smallImages": "小图",
+        "title": "标题",
+        "shopName": "店铺名称",
+        "sellCount": "销量",
+        "price": "价格",
+        "zkPrice": "折扣价格",
+        "commssion": "佣金",
+        "commssionRate": "佣金比例",
+        "description": "推荐语",
+        "coupon": "优惠券"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "vip1App": {
+    "VisitSource": {
+      "null": "",
+      "SEARCH": "SEARCH",
+      "LIST": "LIST",
+      "PUSH": "PUSH"
+    }
+  }
+}

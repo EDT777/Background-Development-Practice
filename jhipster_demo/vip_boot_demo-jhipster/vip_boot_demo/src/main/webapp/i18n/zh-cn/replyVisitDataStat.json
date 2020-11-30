@@ -1,0 +1,37 @@
+{
+  "vip1App": {
+    "replyVisitDataStat": {
+      "home": {
+        "title": "Reply Visit Data Stats",
+        "createLabel": "创建新 Reply Visit Data Stat",
+        "createOrEditLabel": "创建或编辑 Reply Visit Data Stat",
+        "notFound": "No Reply Visit Data Stats found"
+      },
+      "created": "Reply Visit Data Stat {{ param }} 创建成功",
+      "updated": "Reply Visit Data Stat {{ param }} 更新成功",
+      "deleted": "Reply Visit Data Stat {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Reply Visit Data Stat {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Reply Visit Data Stat"
+      },
+      "clickCount": "Click Count",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "source": "Source",
+      "termimal": "Termimal",
+      "replyCount": "Reply Count",
+      "starCount": "Star Count",
+      "help": {
+        "clickCount": "点击次数次数",
+        "startDate": "开始统计时间",
+        "endDate": "终止统计时间",
+        "source": "访问方式",
+        "termimal": "终端类型",
+        "replyCount": "评论数",
+        "starCount": "点赞数量"
+      }
+    }
+  }
+}

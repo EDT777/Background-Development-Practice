@@ -1,0 +1,35 @@
+{
+  "vip1App": {
+    "userContentCollection": {
+      "home": {
+        "title": "User Content Collections",
+        "createLabel": "Create a new User Content Collection",
+        "createOrEditLabel": "Create or edit a User Content Collection",
+        "notFound": "No User Content Collections found"
+      },
+      "created": "A new User Content Collection is created with identifier {{ param }}",
+      "updated": "A User Content Collection is updated with identifier {{ param }}",
+      "deleted": "A User Content Collection is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Content Collection {{ id }}?"
+      },
+      "detail": {
+        "title": "User Content Collection"
+      },
+      "userId": "User Id",
+      "platform": "Platform",
+      "link": "Link",
+      "createDate": "Create Date",
+      "pctUrl": "Pct Url",
+      "valid": "Valid",
+      "help": {
+        "userId": "用户",
+        "platform": "平台",
+        "link": "链接",
+        "createDate": "创建日期",
+        "pctUrl": "图片地址",
+        "valid": "有效"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+        <property name="autoIncrement" value="true"/>
+
+    <!--
+        Added the entity StreamItemStarData.
+    -->
+    <changeSet id="20200531083700-1" author="jhipster">
+        <createTable tableName="stream_item_star_data" remarks="资讯、评论点赞数据">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="user_id" type="bigint" remarks="用户id">
+                <constraints nullable="true" />
+            </column>
+            <column name="create_date" type="datetime" remarks="关注时间">
+                <constraints nullable="true" />
+            </column>
+            <column name="type" type="integer" remarks="类型，1为资讯，2为评论">
+                <constraints nullable="true" />
+            </column>
+            <column name="item_id" type="varchar(255)" remarks="资讯id">
+                <constraints nullable="true" />
+            </column>
+            <column name="replay_id" type="varchar(255)" remarks="回复id">
+                <constraints nullable="true" />
+            </column>
+            <column name="valid" type="boolean" remarks="是否有效">
+                <constraints nullable="true" />
+            </column>
+            <column name="star_type" type="integer" remarks="动作类型 1表示点赞，-1表示踩">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="stream_item_star_data" columnName="create_date" columnDataType="datetime"/>
+    </changeSet>
+
+    <changeSet id="20200531083700-1-relations" author="jhipster">
+
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20200531083700-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/stream_item_star_data.csv"
+                  separator=";"
+                  tableName="stream_item_star_data">
+            <column name="id" type="numeric"/>
+            <column name="user_id" type="numeric"/>
+            <column name="create_date" type="datetime"/>
+            <column name="type" type="numeric"/>
+            <column name="item_id" type="string"/>
+            <column name="replay_id" type="string"/>
+            <column name="valid" type="boolean"/>
+            <column name="star_type" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here, do not remove-->
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

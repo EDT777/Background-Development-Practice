@@ -1,0 +1,85 @@
+{
+    "name": "Reply",
+    "fields": [
+        {
+            "fieldName": "title",
+            "javadoc": "标题",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "javadoc": "内容",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "auditStatus",
+            "javadoc": "审核",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "createData",
+            "javadoc": "发表时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "auditDate",
+            "javadoc": "审核时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "createUser",
+            "javadoc": "发表用户",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "auditUser",
+            "javadoc": "审核人",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "replyUserId",
+            "javadoc": "评论人",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "replyUserNickName",
+            "javadoc": "评论人昵称",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "delFlag",
+            "javadoc": "是否已经删除",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "reply",
+            "otherEntityRelationshipName": "reply",
+            "javadoc": "评论目标为另外一个评论",
+            "relationshipName": "replyTo",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "reply",
+            "javadoc": "评论目标为一个媒体内容",
+            "relationshipName": "item",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531083000",
+    "javadoc": "内容评论及回复.",
+    "entityTableName": "reply",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

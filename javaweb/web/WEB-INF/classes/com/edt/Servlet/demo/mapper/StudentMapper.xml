@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edt.Servlet.demo.StudentMapper">
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id" keyProperty="id" parameterType="Student">
+        insert into t_student2 (number ,name ,sex,score) values (#{number},#{name},#{sex},#{score})
+    </insert>
+    <delete id="delete" >
+        delete from t_student2 where id = #{id}
+    </delete>
+    <update id="update">
+        update t_student2 set number=#{number},name =#{name},sex=#{sex},score=#{score} where id=#{id}
+    </update>
+    <select id="select" resultType="Student">
+        select * from t_student2 where id = #{id}
+    </select>
+    <select id="selectAll" resultType="Student">
+        select * from t_student2
+    </select>
+</mapper>

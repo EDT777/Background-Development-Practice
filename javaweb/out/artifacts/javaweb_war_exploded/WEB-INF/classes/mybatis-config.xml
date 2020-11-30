@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--        引入Properties-->
+    <properties resource="db.properties"></properties>
+<!--    设置类别名-->
+    <typeAliases>
+<!--      不推荐这种  <typeAlias type="com.edt.mybatis_crud.domain.User" alias="User"/> -->
+<!--        推荐这种 使用包 来一波配置别名为类名-->
+        <package name="com.edt.Servlet.demo.domain"/>
+        <package name="com.edt.mybatis_crud.domain"/>
+        <package name="com.edt.webcrud_product.domain"/>
+        <package name="com.edt.webcrud_good.domain"/>
+    </typeAliases>
+    <!-- 配置环境:
+    开发环境
+    测试环境
+    生产环境
+    default:默认使用哪个环境,填写是环境的id值
+    -->
+
+    <environments default="dev">
+
+
+        <!--配置环境-->
+        <environment id="dev">
+            <!--            配置事务机制
+                            type:使用哪种事务
+                            type:填的内容只是别名,其实有一个真实的类做映射
+                            真实类:org.apache.ibatis.transaction.jdbc.jdbcTransaction
+            -->
+            <transactionManager type="JDBC"/>
+
+            <!--配置数据源
+               type:填的内容只是别名,有一个真实的类做映射
+               org.apache.ibatis.datasource.pooled.PooledDataSource
+           -->     <!--配置数据源
+                    type:填的内容只是别名,有一个真实的类做映射
+                    org.apache.ibatis.datasource.pooled.PooledDataSource
+                -->
+            <dataSource type="POOLED">
+                <!--                连接数据库四要素-->
+                <property name="driver" value="${driverClassName}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+
+        </environment>
+    </environments>
+    <!--    关联映射文件.加入sql语句-->
+    <mappers>
+        <!--        写入映射文件路径-->
+
+        <mapper resource="com/edt/webcrud_product/mapper/ProductMapper.xml"/>
+        <mapper resource="com/edt/webcrud_good/mapper/GoodMapper.xml"/>
+        <mapper resource="com/edt/webcrud_product/mapper/User2Mapper.xml"/>
+        <mapper resource="com/edt/Servlet/demo/mapper/StudentMapper.xml"/>
+<!--        <mapper resource="com/edt/mybatis_crud/mapper/UserMapper.xml"/>    这个在test包里,则不能和其他多个不在test包的mapper共同配置-->
+    </mappers>
+</configuration>

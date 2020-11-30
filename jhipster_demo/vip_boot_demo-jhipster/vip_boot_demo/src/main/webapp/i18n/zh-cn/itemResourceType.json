@@ -1,0 +1,15 @@
+{
+  "vip1App": {
+    "ItemResourceType": {
+      "null": "",
+      "VIDEO": "VIDEO",
+      "AUDIO": "AUDIO",
+      "IMAGE": "IMAGE",
+      "ARTICAL": "ARTICAL",
+      "ACTIVITY": "ACTIVITY",
+      "SINGLE_PRODUCT": "SINGLE_PRODUCT",
+      "COVER": "COVER",
+      "OTHER": "OTHER"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+version: '2'
+services:
+  vip1-redis:
+    image: redis:5.0.7
+    ports:
+      - '6379:6379'

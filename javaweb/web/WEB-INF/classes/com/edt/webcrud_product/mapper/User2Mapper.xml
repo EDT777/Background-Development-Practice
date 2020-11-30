@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edt.webcrud_product.mapper.User2Mapper">
+
+ <select id="checkUser2" resultType="User2">
+     select  * from user2 where username = #{username} and password = #{password}
+ </select>
+    <select id="checkUserByUsername" resultType="User2">
+     select  * from user2 where username = #{username}
+ </select>
+    <update id="updateHeadImg">
+            update user2 set headImg = #{headImg} where id=#{id}
+    </update>
+
+    <insert id="insert">
+        insert into user2 (username, password) VALUES (#{username},#{password})
+    </insert>
+</mapper>

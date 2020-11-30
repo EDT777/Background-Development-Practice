@@ -1,0 +1,54 @@
+{
+    "name": "ReplyVisitDataStat",
+    "fields": [
+        {
+            "fieldName": "clickCount",
+            "javadoc": "点击次数次数",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "startDate",
+            "javadoc": "开始统计时间",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "endDate",
+            "javadoc": "终止统计时间",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "source",
+            "javadoc": "访问方式",
+            "fieldType": "VisitSource",
+            "fieldValues": "SEARCH,LIST,PUSH"
+        },
+        {
+            "fieldName": "termimal",
+            "javadoc": "终端类型",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "replyCount",
+            "javadoc": "评论数",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "starCount",
+            "javadoc": "点赞数量",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200531083500",
+    "javadoc": "评论或回复访问的统计信息.\\n@author hw",
+    "entityTableName": "reply_visit_data_stat",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

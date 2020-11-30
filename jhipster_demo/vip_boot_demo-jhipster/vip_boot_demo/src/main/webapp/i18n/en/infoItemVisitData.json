@@ -1,0 +1,37 @@
+{
+  "vip1App": {
+    "infoItemVisitData": {
+      "home": {
+        "title": "Info Item Visit Data",
+        "createLabel": "Create a new Info Item Visit Data",
+        "createOrEditLabel": "Create or edit a Info Item Visit Data",
+        "notFound": "No Info Item Visit Data found"
+      },
+      "created": "A new Info Item Visit Data is created with identifier {{ param }}",
+      "updated": "A Info Item Visit Data is updated with identifier {{ param }}",
+      "deleted": "A Info Item Visit Data is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Info Item Visit Data {{ id }}?"
+      },
+      "detail": {
+        "title": "Info Item Visit Data"
+      },
+      "userId": "User Id",
+      "deviceNo": "Device No",
+      "date": "Date",
+      "source": "Source",
+      "action": "Action",
+      "goods": "Goods",
+      "termimal": "Termimal",
+      "streamItem": "Stream Item",
+      "help": {
+        "userId": "访问用户",
+        "deviceNo": "设备号，对于手机就是IMEI",
+        "date": "访问时间",
+        "action": "访问行为，比如滑动，点击，停留",
+        "goods": "商品信息",
+        "termimal": "终端类型"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "vip1App": {
+    "reply": {
+      "home": {
+        "title": "Replies",
+        "createLabel": "创建新 Reply",
+        "createOrEditLabel": "创建或编辑 Reply",
+        "notFound": "No Replies found"
+      },
+      "created": "Reply {{ param }} 创建成功",
+      "updated": "Reply {{ param }} 更新成功",
+      "deleted": "Reply {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Reply {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Reply"
+      },
+      "title": "Title",
+      "content": "Content",
+      "auditStatus": "Audit Status",
+      "createData": "Create Data",
+      "auditDate": "Audit Date",
+      "createUser": "Create User",
+      "auditUser": "Audit User",
+      "replyUserId": "Reply User Id",
+      "replyUserNickName": "Reply User Nick Name",
+      "delFlag": "Del Flag",
+      "replyTo": "Reply To",
+      "item": "Item",
+      "help": {
+        "title": "标题",
+        "content": "内容",
+        "auditStatus": "审核",
+        "createData": "发表时间",
+        "auditDate": "审核时间",
+        "createUser": "发表用户",
+        "auditUser": "审核人",
+        "replyUserId": "评论人",
+        "replyUserNickName": "评论人昵称",
+        "delFlag": "是否已经删除"
+      }
+    }
+  }
+}

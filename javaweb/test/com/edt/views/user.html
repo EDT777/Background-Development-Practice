@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>用户新增</title>
+<script>
+	window.onload = function () {
+			var sunbmitBtnEl = document.getElementById("btn_submit");
+				sunbmitBtnEl.onclick = function () {
+					//获取所有的表单控件的数据
+					var username = document.getElementById("username").value;
+					var email = document.getElementById("email").value;
+					var tel = document.getElementById("tel").value;
+					console.log(username,email,tel);
+					//2 创建一个tr 和 4个td 给td设置文件数据
+					var trEl = document.createElement("tr");
+					var usernameTd = document.createElement("td");
+					var emailTd = document.createElement("td");
+					var telTd = document.createElement("td");
+					var deleteEl = document.createElement("td");
+					//给td赋值
+					usernameTd.innerHTML = username;
+					emailTd.innerHTML = email;
+					telTd.innerHTML = tel;
+					deleteEl.innerHTML = "<a href='#' onclick='deleteTr(this)'>删除</a>";
+					// 3.把4个td 存到tr中
+					trEl.appendChild(usernameTd);
+					trEl.appendChild(emailTd);
+					trEl.appendChild(telTd);
+					trEl.appendChild(deleteEl);
+					//把tr 存到tbody中
+					var userTbodyEl = document.getElementById("userTbody");
+					userTbodyEl.appendChild(trEl);
+
+			}
+		//删除所有
+		var removeAllBtnEl = document.getElementById("btn_removeAll");
+		removeAllBtnEl.onclick = function () {
+			//获取userTbody 元素
+			var userTbodyEl = document.getElementById("userTbody");
+			userTbodyEl.innerHTML="";
+		}
+	}
+
+	//删除
+	function deleteTr(ele) {
+		//通过o 元素对象获取td 再获取tr元素对象
+			var trEl = ele.parentNode.parentNode;
+			console.log(123);
+			//通过tr 元素对象获取tbody 删除tr
+			trEl.parentNode.removeChild(trEl);
+	}
+</script>
+</head>
+<body>
+	<form name="userForm">
+		<center>
+			用户录入<br/>
+			用户名:<input id="username" name="username" type="text" size=15/>
+			E-mail:<input  id="email" name="email" type="text"  size=15/>
+			电话:<input id="tel" name="tel" type="text" size=15/>
+			<input type="button" value="添加" id="btn_submit"/>
+			<input type="button" value="删除所有" id="btn_removeAll"/>
+		</center>
+	</form>
+	<hr/>
+	<table border="1" align="center" cellpadding=0 cellspacing=0 width=400> 
+		<thead>
+			<tr>
+				<th>用户名</th>
+				<th>E-mail</th>
+				<th>电话</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody id="userTbody">
+			<tr id="tr1">
+				<td>张无忌</td>
+				<td>wujizhang@163.com</td>
+				<td>18212345678</td>
+				<td><a href="#" onclick="deleteTr(this)">删除</a></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+</body>
+</html>

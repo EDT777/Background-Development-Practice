@@ -1,0 +1,53 @@
+{
+    "name": "StreamItemStarData",
+    "fields": [
+        {
+            "fieldName": "userId",
+            "javadoc": "用户id",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "createDate",
+            "javadoc": "关注时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "type",
+            "javadoc": "类型，1为资讯，2为评论",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "itemId",
+            "javadoc": "资讯id",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "replayId",
+            "javadoc": "回复id",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "valid",
+            "javadoc": "是否有效",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "starType",
+            "javadoc": "动作类型 1表示点赞，-1表示踩",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200531083700",
+    "javadoc": "资讯、评论点赞数据",
+    "entityTableName": "stream_item_star_data",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

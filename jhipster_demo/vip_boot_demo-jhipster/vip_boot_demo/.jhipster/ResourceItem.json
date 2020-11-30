@@ -1,0 +1,118 @@
+{
+    "name": "ResourceItem",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "ItemResourceType",
+            "fieldValues": "VIDEO,AUDIO,IMAGE,ARTICAL,ACTIVITY,SINGLE_PRODUCT,COVER,OTHER"
+        },
+        {
+            "fieldName": "platform",
+            "javadoc": "平台，比如alivod等",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resourceId",
+            "javadoc": "在平台上的资源id，比如aliyun的点播的videoId，oss的对象id",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "transcodeStatus",
+            "javadoc": "是否已经完成转码",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "uploadStatus",
+            "javadoc": "是否已经成功上传",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "updateDate",
+            "javadoc": "上传时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "auditStatus",
+            "javadoc": "是否通过审核",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "auditDate",
+            "javadoc": "最后审核操作时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "auditInfo",
+            "javadoc": "审核信息",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fileSize",
+            "javadoc": "内容大小，字节",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "contentSize",
+            "javadoc": "内容长度，比如时长",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "source",
+            "javadoc": "来源-平台上传/用户上传",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "javadoc": "地址",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "urlExpire",
+            "javadoc": "地址过期时间",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "params",
+            "javadoc": "资源参数，比如视频长度，码率等，json格式",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "auditUser",
+            "javadoc": "审核人",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "delFlag",
+            "javadoc": "是否已经删除",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "resource",
+            "relationshipName": "infoStreamItem",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "cover",
+            "relationshipName": "infoStreamItem",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531083200",
+    "javadoc": "资讯内容，比如视频，文章，图片等",
+    "entityTableName": "resource_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

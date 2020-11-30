@@ -1,0 +1,47 @@
+{
+  "vip1App": {
+    "infoStreamItem": {
+      "home": {
+        "title": "Info Stream Items",
+        "createLabel": "Create a new Info Stream Item",
+        "createOrEditLabel": "Create or edit a Info Stream Item",
+        "notFound": "No Info Stream Items found"
+      },
+      "created": "A new Info Stream Item is created with identifier {{ param }}",
+      "updated": "A Info Stream Item is updated with identifier {{ param }}",
+      "deleted": "A Info Stream Item is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Info Stream Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Info Stream Item"
+      },
+      "title": "Title",
+      "type": "Type",
+      "digist": "Digist",
+      "content": "Content",
+      "createUser": "Create User",
+      "lastUpdateDate": "Last Update Date",
+      "updateUser": "Update User",
+      "createDate": "Create Date",
+      "tags": "Tags",
+      "contentType": "Content Type",
+      "resource": "Resource",
+      "cover": "Cover",
+      "goods": "Goods",
+      "author": "Author",
+      "help": {
+        "title": "商品标题",
+        "type": "类型",
+        "digist": "简介/摘要",
+        "content": "内容",
+        "createUser": "创建人",
+        "lastUpdateDate": "最后更新时间",
+        "updateUser": "更新人",
+        "createDate": "创建时间",
+        "tags": "标签",
+        "contentType": "内容类型"
+      }
+    }
+  }
+}

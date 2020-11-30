@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>checkbox</title>
+<script type="text/javascript" >
+	function checkAll(flag) {
+//获取需要勾选的元素对象
+		var checkbox = document.getElementsByName("hobby");
+		//给所有的checkbox 为true
+		for (var i =0;i<checkbox.length;i++){
+			checkbox[i].checked = flag;
+		}
+	}
+	//反选
+	function inverse() {
+		var checkbox = document.getElementsByName("hobby");
+		//给所有的checkbox 为true
+		for (var i =0;i<checkbox.length;i++){
+			checkbox[i].checked = !checkbox[i].checked;
+		}
+	}
+	function checkChange(El){
+
+		checkAll(El.checked);
+	}
+</script>
+</head>
+<body>
+	请选择你的爱好:<br/>
+	<input type="checkbox" onchange="checkChange(this)" id="checkAll"/>全选/全不选<br/>
+	<div>
+		<input type="checkbox" name="hobby"/>JAVA&nbsp;
+		<input type="checkbox" name="hobby"/>打篮球&nbsp;
+		<input type="checkbox" name="hobby"/>上网&nbsp;
+		<input type="checkbox" name="hobby"/>撩妹&nbsp;
+	</div>
+	
+	<div>
+		<input type="button" id="btn_checkAll" onclick="checkAll(true)" value="全选"/>
+		<input type="button" onclick="checkAll(false)" value="全不选"/>
+		<input type="button" onclick="inverse()" value="反选"/>
+	</div>
+</body>
+</html>

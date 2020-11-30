@@ -1,0 +1,61 @@
+{
+    "name": "InfoItemVisitData",
+    "fields": [
+        {
+            "fieldName": "userId",
+            "javadoc": "访问用户",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "deviceNo",
+            "javadoc": "设备号，对于手机就是IMEI",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date",
+            "javadoc": "访问时间",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "source",
+            "fieldType": "VisitSource",
+            "fieldValues": "SEARCH,LIST,PUSH"
+        },
+        {
+            "fieldName": "action",
+            "javadoc": "访问行为，比如滑动，点击，停留",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "goods",
+            "javadoc": "商品信息",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "termimal",
+            "javadoc": "终端类型",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "infoStreamItem",
+            "otherEntityRelationshipName": "infoItemVisitData",
+            "relationshipName": "streamItem",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531083300",
+    "javadoc": "资讯信息访问记录.\\n@author hw",
+    "entityTableName": "info_item_visit_data",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

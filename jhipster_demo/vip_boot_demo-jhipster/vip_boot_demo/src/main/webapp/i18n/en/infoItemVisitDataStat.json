@@ -1,0 +1,37 @@
+{
+  "vip1App": {
+    "infoItemVisitDataStat": {
+      "home": {
+        "title": "Info Item Visit Data Stats",
+        "createLabel": "Create a new Info Item Visit Data Stat",
+        "createOrEditLabel": "Create or edit a Info Item Visit Data Stat",
+        "notFound": "No Info Item Visit Data Stats found"
+      },
+      "created": "A new Info Item Visit Data Stat is created with identifier {{ param }}",
+      "updated": "A Info Item Visit Data Stat is updated with identifier {{ param }}",
+      "deleted": "A Info Item Visit Data Stat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Info Item Visit Data Stat {{ id }}?"
+      },
+      "detail": {
+        "title": "Info Item Visit Data Stat"
+      },
+      "clickCount": "Click Count",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "source": "Source",
+      "termimal": "Termimal",
+      "replyCount": "Reply Count",
+      "starCount": "Star Count",
+      "help": {
+        "clickCount": "点击次数次数",
+        "startDate": "开始统计时间",
+        "endDate": "终止统计时间",
+        "source": "访问方式",
+        "termimal": "终端类型",
+        "replyCount": "评论数",
+        "starCount": "点赞数量"
+      }
+    }
+  }
+}

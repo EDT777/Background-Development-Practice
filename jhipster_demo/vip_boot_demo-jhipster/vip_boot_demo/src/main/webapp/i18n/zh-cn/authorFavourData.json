@@ -1,0 +1,28 @@
+{
+  "vip1App": {
+    "authorFavourData": {
+      "home": {
+        "title": "Author Favour Data",
+        "createLabel": "创建新 Author Favour Data",
+        "createOrEditLabel": "创建或编辑 Author Favour Data",
+        "notFound": "No Author Favour Data found"
+      },
+      "created": "Author Favour Data {{ param }} 创建成功",
+      "updated": "Author Favour Data {{ param }} 更新成功",
+      "deleted": "Author Favour Data {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Author Favour Data {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Author Favour Data"
+      },
+      "userId": "User Id",
+      "createDate": "Create Date",
+      "author": "Author",
+      "help": {
+        "userId": "用户id",
+        "createDate": "关注时间"
+      }
+    }
+  }
+}

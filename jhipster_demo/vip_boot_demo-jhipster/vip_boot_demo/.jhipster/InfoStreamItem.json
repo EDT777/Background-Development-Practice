@@ -1,0 +1,96 @@
+{
+    "name": "InfoStreamItem",
+    "fields": [
+        {
+            "fieldName": "title",
+            "javadoc": "商品标题",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "javadoc": "类型",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "digist",
+            "javadoc": "简介/摘要",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "javadoc": "内容",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createUser",
+            "javadoc": "创建人",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastUpdateDate",
+            "javadoc": "最后更新时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "updateUser",
+            "javadoc": "更新人",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createDate",
+            "javadoc": "创建时间",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "tags",
+            "javadoc": "标签",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contentType",
+            "javadoc": "内容类型",
+            "fieldType": "ItemResourceType",
+            "fieldValues": "VIDEO,AUDIO,IMAGE,ARTICAL,ACTIVITY,SINGLE_PRODUCT,COVER,OTHER"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "resourceItem",
+            "otherEntityRelationshipName": "infoStreamItem",
+            "relationshipName": "resource"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "resourceItem",
+            "otherEntityRelationshipName": "infoStreamItem",
+            "relationshipName": "cover"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "relativeGoodsItem",
+            "otherEntityRelationshipName": "infoStreamItem",
+            "relationshipName": "goods"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "author",
+            "otherEntityRelationshipName": "infoStreamItem",
+            "javadoc": "媒体作者",
+            "relationshipName": "author",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200531082800",
+    "javadoc": "信息流资讯\\n@author hw",
+    "entityTableName": "info_stream_item",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

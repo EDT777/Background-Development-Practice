@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script type="text/javascript">
+
+        function fun1() {
+            var span1= document.getElementById(`span1`);
+            var div1 = document.getElementById("div1");
+            div1.append(span1);
+        }
+        function fun2() {
+            var div2 = document.getElementById("div2");
+            var span = document.getElementsByTagName("span");
+            for (var i =0;i<span.length;i++){
+                div2.appendChild(span[0]);
+            }
+        }
+        function fun3() {
+                    var spanNew = document.createElement("span");
+                    spanNew.innerHTML="新元素span";
+                    var div3 =document.getElementById("div3");
+                    div3.appendChild(spanNew);
+            }
+        //响应函数
+        function shout(e) {//监听函数
+            alert(e.clientY);//e事务对象
+        }
+        //绑定事件
+        window.onload = function () {//元素被加载之后
+            var button = document.getElementById("buttonId");
+            button.onclick = function () {
+                        alert("又点我干嘛!");
+            }
+        }
+
+    </script>
+</head>
+<body>
+<p style="color:red" id="p1" onclick="shout(event);">Hellow world</p>
+<input id="buttonId" type="button" value="点我啊">
+<span id="span1">span1</span>
+<span id="span2">span2</span>
+<div id="div1" style="background-color: green">1</div>
+<div id="div2" style="background-color: yellow">2</div>
+<div id="div3" style="background-color: red;">3</div>
+<button onclick="fun1()">把span1添加到div1</button>
+<button onclick="fun2()">把span添加到div2</button>
+<button onclick="fun3()">新建span元素添加到div3</button>
+<br/>
+<select id="character" size="7">
+    <option id="item1">刘备</option>
+    <option id="item2">关羽</option>
+    <option id="item3">张飞</option>
+    <option id="item4">赵云</option>
+</select>
+<button onclick="fun4()">在关羽之前插入诸葛亮</button>
+<button onclick="fun5()">把关羽换成魏延</button>
+<button onclick="fun6()">删除张飞</button>
+<br/>
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--&lt;!&ndash;    配置自定义的serlvet类 &ndash;&gt;-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>Hello3Servlet</servlet-name>-->
+    <!--        <servlet-class>com.edt.Servlet.extend.Hello3Servlet</servlet-class>-->
+    <!--        <init-param>-->
+    <!--            <param-name>encoding</param-name>-->
+    <!--            <param-value>UTF-8</param-value>-->
+    <!--        </init-param>-->
+    <!--        <load-on-startup>1</load-on-startup>&lt;!&ndash; 越小 越优先加载&ndash;&gt;-->
+    <!--    </servlet>-->
+    <!--&lt;!&ndash;    配置浏览器的访问地址，映射到自定的servlet&ndash;&gt;-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>Hello3Servlet</servlet-name>-->
+    <!--        <url-pattern>/hello3</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>MappingSerlvet</servlet-name>-->
+    <!--        <servlet-class> com.edt.Servlet.MappingSerlvet </servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>MappingSerlvet</servlet-name>-->
+    <!--&lt;!&ndash;        配置多个url-pattern&ndash;&gt;-->
+    <!--        <url-pattern>/m1</url-pattern>-->
+    <!--        <url-pattern>/m2</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--&lt;!&ndash;配置多个mapping&ndash;&gt;-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>MappingSerlvet</servlet-name>-->
+    <!--        <url-pattern>/m3</url-pattern>-->
+    <!--    </servlet-mapping>-->
+</web-app>

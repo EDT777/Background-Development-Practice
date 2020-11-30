@@ -1,0 +1,58 @@
+{
+  "vip1App": {
+    "resourceItem": {
+      "home": {
+        "title": "Resource Items",
+        "createLabel": "Create a new Resource Item",
+        "createOrEditLabel": "Create or edit a Resource Item",
+        "notFound": "No Resource Items found"
+      },
+      "created": "A new Resource Item is created with identifier {{ param }}",
+      "updated": "A Resource Item is updated with identifier {{ param }}",
+      "deleted": "A Resource Item is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Resource Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Resource Item"
+      },
+      "type": "Type",
+      "platform": "Platform",
+      "resourceId": "Resource Id",
+      "transcodeStatus": "Transcode Status",
+      "uploadStatus": "Upload Status",
+      "updateDate": "Update Date",
+      "auditStatus": "Audit Status",
+      "auditDate": "Audit Date",
+      "auditInfo": "Audit Info",
+      "fileSize": "File Size",
+      "contentSize": "Content Size",
+      "source": "Source",
+      "url": "Url",
+      "urlExpire": "Url Expire",
+      "params": "Params",
+      "auditUser": "Audit User",
+      "delFlag": "Del Flag",
+      "infoStreamItem": "Info Stream Item",
+      "infoStreamItem": "Info Stream Item",
+      "help": {
+        "platform": "平台，比如alivod等",
+        "resourceId": "在平台上的资源id，比如aliyun的点播的videoId，oss的对象id",
+        "transcodeStatus": "是否已经完成转码",
+        "uploadStatus": "是否已经成功上传",
+        "updateDate": "上传时间",
+        "auditStatus": "是否通过审核",
+        "auditDate": "最后审核操作时间",
+        "auditInfo": "审核信息",
+        "fileSize": "内容大小，字节",
+        "contentSize": "内容长度，比如时长",
+        "source": "来源-平台上传/用户上传",
+        "url": "地址",
+        "urlExpire": "地址过期时间",
+        "params": "资源参数，比如视频长度，码率等，json格式",
+        "auditUser": "审核人",
+        "delFlag": "是否已经删除"
+      }
+    }
+  }
+}

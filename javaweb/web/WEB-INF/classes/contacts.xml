@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- 以上文档声明，versino:版本，
+encoding 编码格式：文档内容编码和文件本身编码必须保持一致--><contacts>
+    <linkman id="1">
+        <name>小度</name>
+        <email>www.baidu.com</email>
+        <address>广州</address>
+        <group>Java学院</group>
+    </linkman>
+    <linkman id="2">
+        <name>小码</name>
+        <email>www.views.com</email>
+        <address>广州</address>
+        <group>Java学院</group>
+    </linkman>
+
+<linkman><name>小豪</name><emailEl>www.123.com</emailEl><address>东莞</address><group>javaaa学院</group></linkman></contacts>
