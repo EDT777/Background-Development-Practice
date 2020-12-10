@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>全选</title>
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js">
+    </script>
+    <script>
+        function checkChange(src) {
+            var checked = $(src).prop('checked');
+            checkAll(checked);
+        }
+
+        function checkAll(flag) {
+            $('[name=hobby]').prop('checked', flag);
+            $('#checkAll').prop('checked', flag);
+        }
+
+        function checkUnAll() {
+            $('[name=hobby]').each(function (i, domEle) {
+                var oldValue = $(domEle).prop('checked');
+                var newValue = !oldValue;
+                $(domEle).prop('checked', newValue);
+            });
+            check();
+        }
+
+        $(function () {
+            $('[name=hobby]').click(function () {
+                check();
+            });
+        });
+
+        function check() {
+            var total = true; // 统计
+            $('[name=hobby]').each(function (i, domEle) {
+                var checked = $(domEle).prop('checked');
+                total = total && checked;
+            });
+            $('#checkAll').prop('checked', total);
+        }
+
+    </script>
+</head>
+<body>
+请选择你的爱好:<br/>
+<input type="checkbox" onchange="checkChange(this)" id="checkAll"/>全选/全不选
+<br/>
+<div>
+    <input type="checkbox" name="hobby"/>JAVA&nbsp;
+    <input type="checkbox" name="hobby"/>打篮球&nbsp;
+    <input type="checkbox" name="hobby"/>上网&nbsp;
+    <input type="checkbox" name="hobby"/>撩妹&nbsp;
+</div>
+<div>
+    <input type="button" id="btn_checkAll" onclick="checkAll(true)"
+           value="全选"/>
+    <input type="button" onclick="checkAll(false)" value="全不选"/>
+    <input type="button" onclick="checkUnAll()" value="反选"/>
+</div>
+</body>
+</html>

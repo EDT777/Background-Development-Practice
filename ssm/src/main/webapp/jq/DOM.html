@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>jQuery DOM 操作</title>
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js">
+    </script>
+    <script>
+        $(function () {
+            $('#append').click(function () {
+                $('#div1').append($('#span'));
+            });
+            $('#after').click(function () {
+                $('#div2').after($('#div1'));
+            });
+            $('#empty').click(function () {
+                $('#ul').empty();
+            });
+            $('#btn').click(function () {
+                $('#btn').remove();
+            });
+            var $det;
+            $('#remove').click(function () {
+                $det = $('#btn').remove();
+            });
+            resume
+            $('#resume').click(function () {
+                $('#ul').after($det);
+            });
+        });
+    </script>
+</head>
+<body>
+<span style="background-color : blue;color: red;" id="span">SPAN</span>
+<div id="div1" style="background-color: gray;">DIV1</div>
+<div id="div2" style="background-color: green;">DIV2</div>
+<ul id="ul">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+    <li>item4</li>
+    <li>item5</li>
+</ul>
+<input id="btn" type="button" value="删除我"/>
+<form>
+    <fieldset>
+        <legend>内部插入节点(插入子节点)</legend>
+        <input type="button" value="append" id="append"/>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>外部插入节点(插入兄弟节点)</legend>
+        <input type="button" value="after" id="after"/>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>删除节点</legend>
+        <input type="button" value="删除所有子节点" id="empty"/>
+        <input type="button" value="删除节点" id="remove"/>
+        <input type="button" value="恢复节点" id="resume"/>
+    </fieldset>
+</form>
+</body>
+</html>

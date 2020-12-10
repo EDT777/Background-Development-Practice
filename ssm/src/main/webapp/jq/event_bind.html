@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery 事件绑定</title>
+    <script src="../static/js/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function () {
+            $('#btn1').click(function () { // 匿名函数什么时候执行, 当用户在页面点击这
+                // 个按钮就会执行这个函数
+                console.log(this); // this 就是事件源 DOM 对象
+                console.log($(this)); // 事件源 DOM 对象 => jQuery 对象
+            });
+            // 找到多少个绑定多少个
+            $('.myBtn').click(function () {
+                console.log('hello');
+            });
+        });
+        window.onload = function () {
+            console.log(1);
+        };
+        window.onload = function () {
+            console.log(2);
+        };
+        $(function () {
+            console.log(3);
+        });
+        $(function () {
+            console.log(4);
+        });
+    </script>
+</head>
+<body>
+<button id="btn1">btn1</button>
+<button id="btn2" class="myBtn">btn2</button>
+<button id="btn3" class="myBtn">btn3</button>
+</body>
+</html>

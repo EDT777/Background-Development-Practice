@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../static/js/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function () {
+            $('#username').blur(function () {
+                $.get('/checkUsername','username='+$(this).val(),function (data) {
+                        $('#result').html(data.msg)
+                            .css('color',data.success?'green':'red');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<span id="result"></span><br/>
+    <input type="text" id="username" placeholder="用户名">
+</body>
+</html>

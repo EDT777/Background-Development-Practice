@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.edt.spring.crud.mapper.Department2Mapper" >
+  <resultMap id="BaseResultMap" type="com.edt.spring.crud.domain.Department2" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sn" property="sn" jdbcType="VARCHAR" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from department2
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.edt.spring.crud.domain.Department2" useGeneratedKeys="true" keyProperty="id" >
+    insert into department2 (name, sn)
+    values (#{name,jdbcType=VARCHAR}, #{sn,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.edt.spring.crud.domain.Department2" >
+    update department2
+    set name = #{name,jdbcType=VARCHAR},
+      sn = #{sn,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, name, sn
+    from department2
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, name, sn
+    from department2
+  </select>
+    <select id="selectForCount" resultType="java.lang.Integer">
+        select count(*) from  department2
+    </select>
+  <select id="selectForList" resultType="com.edt.spring.crud.domain.Department2">
+    select id,name,sn from department2
+    limit #{start},#{pageSize}
+  </select>
+</mapper>

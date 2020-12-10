@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本的显示与隐藏</title>
+    <script src="../static/js/jquery-2.1.4.min.js"></script>
+    <script>
+        console.log($);
+        $(function () {
+            $('#toggle').click(function () {
+                $('#content').toggle(1000);
+            })
+        });
+    </script>
+</head>
+<body>
+<div id="content">
+    【乘客#为少付1元车费致两公交相撞#：辱骂并拉拽驾驶员使公交车失控】5月7日16时18分，浙江宁波
+    一男性乘客因不愿按规定缴纳车费，辱骂并强行拉拽驾驶员胳膊，致使正常行使中的公交车失控，穿过中间绿
+    化带与对向行驶的公交车相撞。事故造成2名驾驶员和该肇事乘客受伤，无人员死亡。
+</div>
+<button id="toggle">切换</button>
+</body>
+</html>

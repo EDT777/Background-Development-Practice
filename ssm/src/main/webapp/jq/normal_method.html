@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery对象常用方法</title>
+    <script src="../static/js/jquery-2.1.4.min.js"></script>
+    <script>
+
+        $(function () {
+            // 问题 1：获取 jQuery 中包含 DOM 的个数，比如获取页面上 p 元素的个数
+            console.log($('p').size());
+            // 问题 2：获取 id 为 username 元素的 value 属性值
+            console.log($('#username').val());
+            // 问题 3：设置 id 为 username 元素的 value 属性值为"叩丁狼教育"
+            console.log($('#username').val('叩丁狼教育'));;
+            // 问题 4：对比 h1 元素的内容和纯文本的区别
+            console.log($('#h1').html());
+            console.log($('#h1').text());
+            // 问题 5：把 h1 元素内容的颜色改为黄色
+            $('#h1').css('color','pink');
+        });
+
+    </script>
+</head>
+<body>
+<h1 id="h1">做人<i>要低调</i></h1>
+<input type="text" id="username" value="wolfcode"/><br/><br/>
+<div>
+    jQuery 常用方法:<br/>
+    jQuery对象.size(); // 获取 jQuery 中包含元素的个数<br/>
+    jQuery对象.val(); // 操作元素的 value 属性<br/>
+    jQuery对象.html(); // 操作元素内的 HTML 代码<br/>
+    jQuery对象.text(); // 操作元素内的文本，忽略 HTML 标签<br/>
+    jQuery对象.css(); // 操作元素的 style 属性
+</div>
+<hr/>
+<div>
+    <p>
+        问题 1：获取 jQuery 中包含 DOM 的个数，比如获取页面上 p 元素的个数
+    </p>
+    <p>
+        问题 2：获取 id 为 username 元素的 value 属性值
+    </p>
+    <p>
+        问题 3：设置 id 为 username 元素的 value 属性值为"叩丁狼教育"
+    </p>
+    <p>
+        问题 4：对比 h1 元素的内容和纯文本的区别
+    </p>
+    <p>
+        问题 5：把 h1 元素内容的颜色改为黄色
+    </p>
+</div>
+</body>
+</html>

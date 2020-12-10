@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edt.mybatis_demo.mapper.EmployeeMapper">
+    <update id="update">
+        update employeee
+        <set>
+            <if test="name!=null and name!=''">
+                name = #{name},
+            </if>
+            <if test="sn!=null and sn!=''">
+                sn = #{sn},
+            </if>
+            <if test="salary!=null">
+                salary = #{salary},
+            </if>
+            <if test="deptId != null">
+                deptId = #{deptId},
+            </if>
+        </set>
+            where id =#{id}
+    </update>
+    <delete id="batchDelete">
+        delete from employeee where id in
+<!--
+collection 遍历集合或者数组
+open 遍历拼接字符串
+close 遍历结束拼接的字符串
+separator 每次遍历拼接的分隔符
+item 每次遍历的元素
+index 每次遍历的索引
+-->
+        <foreach collection="array" open="(" item="ele" separator=","  close=")">
+                #{ele}
+        </foreach>
+    </delete>
+
+    <select id="queryByMinSalary" resultType="com.edt.mybatis_demo.domain.Employee">
+        select id,name,sn,salary,deptId from employeee
+        <if test="minSalary!=null">
+            where salary >= #{minSalary}
+        </if>
+
+    </select>
+    <select id="queryByMinSalaryAndMaxSalary" resultType="com.edt.mybatis_demo.domain.Employee">
+        select * from employeee
+        <where>
+            <if test="minSalary != null">
+                and salary &gt; #{minSalary}
+            </if>
+            <if test="maxSalary !=null">
+                and salary &lt; #{maxSalary}
+            </if>
+        </where>
+    </select>
+</mapper>

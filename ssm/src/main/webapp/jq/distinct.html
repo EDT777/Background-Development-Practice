@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>下拉框去重</title>
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js">
+    </script>
+    <script>
+        function distinct() {
+            var arr = [];
+            $('#s2 > option').each(function (i, domEle) {
+                var val = $(domEle).val();
+                arr.push(val);
+            });
+            console.log(arr);
+            $('#s1 > option').each(function (i, domEle) {
+                var $option = $(domEle);
+                var val = $option.val();
+                if ($.inArray(val, arr) >= 0) {
+                    $option.remove();
+                }
+                ;
+            });
+        };
+    </script>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>
+            <select id="s1" style="width:100px;" size="10"
+                    multiple="multiple">
+                <option value="1">选项1</option>
+                <option value="2">选项2</option>
+                <option value="3">选项3</option>
+                <option value="4">选项4</option>
+                <option value="5">选项5</option>
+            </select>
+        </td>
+        <td align="center">
+            <input type="button" value="去除重复" onclick="distinct();"/>
+            <br/>
+        </td>
+        <td>
+            <select id="s2" style="width:100px;" size="10"
+                    multiple="multiple">
+                <option value="1">选项1</option>
+                <option value="3">选项3</option>
+                <option value="5">选项5</option>
+            </select>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

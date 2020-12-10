@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edt.one2many2one.many2one.mapper.EmployeeMapper">
+    <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        insert into employee2(name, deptId)
+        values (#{name}, #{dept.id})
+    </insert>
+    <select id="get" resultMap="baseResultMap">
+        select id, name, deptId
+        from employee2
+        where id = #{id}
+    </select>
+    <select id="getList" resultMap="multiTableResultMap">
+        select e.id, e.name, d.id as d_id, d.name as d_name
+        from employee2 e
+                 JOIN department d on e.deptId = d.id
+    </select>
+
+
+    <resultMap id="multiTableResultMap" type="com.edt.one2many2one.many2one.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+<!--        <result column="d_id" property="dept.id"/>  数据少的时候用这方法 -->
+<!--        <result column="d_name" property="dept.name"/>-->
+<!--        数据多的时候用这个-->
+        <association property="dept" columnPrefix="d_" javaType="com.edt.one2many2one.many2one.domain.Department">
+            <result column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="baseResultMap" type="com.edt.one2many2one.many2one.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+
+        <!--        获取部门ID
+                Long deptId = employee.getDept().getId();
+                //获取部门信息 并封装进employee里面
+               Department department = departmentMapper.get(deptId);
+               employee.setDept(department);-->
+
+        <!--      column  一个sql的参数 员工的部门的ID值
+                  select  发送的sql 是什么样的
+                  property sql查询数据封装员工对象的哪个属性上
+        -->
+        <association column="deptId"
+                     select="com.edt.one2many2one.many2one.mapper.DepartmentMapper.get"
+                     property="dept"
+        />
+
+    </resultMap>
+</mapper>

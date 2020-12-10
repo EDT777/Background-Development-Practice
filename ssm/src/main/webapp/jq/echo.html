@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>下拉框回显</title>
+<script src="../static/js/jquery-2.1.4.min.js"></script>
+<script>
+    function echo() {
+        $('#s1').val(3);
+    }
+</script>
+</head>
+<body>
+<select id="s1">
+    <option value="1">选项1</option>
+    <option value="2">选项2</option>
+    <option value="3">选项3</option>
+    <option value="4">选项4</option>
+    <option value="5">选项5</option>
+</select>
+<br/>
+<input type="button" value="回显第3个选项" onclick="echo();"/><br/>
+</body>
+</html>

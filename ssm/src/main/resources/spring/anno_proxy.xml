@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--IOC DI 注解解析器
+        spring 会到这个指定包路径下找这些类
+        若这些类贴了IOC DI 注解,那么就会让这些注解生效
+    -->
+    <context:component-scan base-package="com.edt.spring.anno_proxy"/>
+
+    <!-- !静态代理配置!-->
+    <!--事务管理对象-->
+    <bean id="tx" class="com.edt.spring.anno_proxy.static_proxy.tx.MyTransactionManager"/>
+    <!--代理对象-->
+    <bean id="proxy" class="com.edt.spring.anno_proxy.static_proxy.service.impl.EmployeeServiceProxy">
+        <property name="target"><!-- 把真实对象藏起来,安全性高-->
+            <bean class="com.edt.spring.anno_proxy.static_proxy.service.impl.EmployeeServiceImpl"/>
+        </property>
+        <property name="tx" ref="tx"/>
+    </bean>
+
+<!--    JDK动态代理配置!-->
+    <bean id="txx" class="com.edt.spring.anno_proxy.jdk_proxy.tx.MyTransactionManager"/>
+    <bean id="transactionInvocationHandler" class="com.edt.spring.anno_proxy.jdk_proxy.handler.TransactionInvocationHandler">
+        <property name="target">
+            <bean class="com.edt.spring.anno_proxy.jdk_proxy.service.impl.EmployeeServiceImpl"/>
+        </property>
+        <property name="tx" ref="txx"/>
+    </bean>
+
+
+    <!--!register配置!-->
+    <context:property-placeholder location="classpath:db.properties" system-properties-mode="NEVER"/>
+    <!--配置 DataSource -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+    </bean>
+
+<!--gclib动态代理-->
+    <bean id="txx2" class="com.edt.spring.anno_proxy.cglib_proxy.tx.MyTransactionManager"/>
+    <bean id="transactionInvocationHandler2" class="com.edt.spring.anno_proxy.cglib_proxy.handler.TransactionInvocationHandler2">
+        <property name="target">
+            <bean class="com.edt.spring.anno_proxy.cglib_proxy.service.impl.EmployeeServiceImpl2"/>
+        </property>
+        <property name="tx" ref="txx2"/>
+    </bean>
+</beans>

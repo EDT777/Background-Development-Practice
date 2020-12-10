@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:component-scan base-package="com.edt.spring.aop"/>
+    <!--aop 注解解析器-->
+    <aop:aspectj-autoproxy/>
+
+
+    <!--spring 集成准备 -->
+
+    <!-- 关联 db.properties 文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!-- 配置 DataSource -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="root"/>
+        <property name="password" value="${password}"/>
+    </bean>
+    <!-- 配置 SqlSessionFactory -->
+    <bean id="SessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="com.edt.spring.aop.domain"/>
+<!--     xml文件在resources中路径与mapper接口文件在src中路径是同一路径则无需配置
+ <property name="mapperLocations" value="classpath:com/edt/spring/AccountMapper.xml"/>-->
+    </bean>
+
+    <!--    批量配置Mapper 对象-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.edt.spring.aop.mapper"/>
+</bean>
+
+    <!--    事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--        指定数据库-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 事务注解解析器 -->
+    <tx:annotation-driven  />
+</beans>

@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>jQuery 层次选择器</title>
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js"></script>
+    <style type="text/css"> .selected {
+        background-color: gray;
+    }</style>
+    <script>
+        $(function () {
+            // 问题 1：获取所有 ul 下的所有 li 元素，并打印分析结果
+            console.log($('ul li'));
+            // 问题 2：获取 id 为 myul 下的所有子 li 元素，并打印分析结果
+            console.log($('#myul > li'));
+            // 问题 3：获取所有 label 元素后的 input 元素，并打印分析结果
+            console.log($('label ~ input'));
+            // 问题 4：获取紧跟着 label 元素后的 input 元素，并打印分析结果
+            console.log($('label + input'));
+        })
+
+    </script>
+</head>
+<body>
+<ul id="myul">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+    <li>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ul>
+    </li>
+    <li>item666</li>
+    <li>item666</li>
+    <li>item666</li>
+</ul><br>
+
+<label>LABEL1</label>
+<input type="text" value="text1"/>
+<input type="text" value="text2"/><br/>
+<label>LABEL2</label>
+<input type="text" value="text3"/>
+<input type="text" value="text4"/><br/>
+<label> LABEL3 <input type="text" type="text" value="text6"/>
+</label>
+<hr/>
+<div>
+    <p> 问题 1：获取所有 ul 下的所有 li 元素，并打印分析结果 </p>
+    <p> 问题 2：获取 id 为 myul 下的所有子 li 元素，并打印分析结果 </p>
+    <p> 问题 3：获取所有 label 元素后的 input 元素，并打印分析结果 </p>
+    <p> 问题 4：获取紧跟着 label 元素后的 input 元素，并打印分析结果 </p></div>
+</body>
+</html>

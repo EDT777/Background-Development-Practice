@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties"></properties>
+    <typeAliases>
+        <package name="com.edt.mybatis_demo.domain"/>
+    </typeAliases>
+
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"/>
+
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/edt/mybatis_demo/mapper/EmployeeMapper.xml"/>
+        <mapper resource="com/edt/mybatis_demo/mapper/UserMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/many2one/mapper/EmployeeMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/many2one/mapper/DepartmentMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/one2many/mapper/DepartmentMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/one2many/mapper/EmployeeMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/many2many/mapper/StudentMapper.xml"/>
+        <mapper resource="com/edt/one2many2one/many2many/mapper/TeacherMapper.xml"/>
+    </mappers>
+</configuration>

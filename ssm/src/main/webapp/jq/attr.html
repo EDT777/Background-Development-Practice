@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>jQuery 属性操作</title>
+    <!-- 引入jQuery -->
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js">
+    </script>
+    <style type="text/css">
+        .other {
+            background-color: orange;
+            font-size: 20px;
+        }
+        .myBtn{
+            background-color: red;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('#getAttr').click(function () {
+                console.log($('#btn').attr('value'));
+            });
+            $('#setAttr').click(function () {
+                console.log($('#btn').attr('value','666'));
+            });
+            $('#addClass').click(function () {
+                console.log($('#btn').addClass('尼玛死了 尼玛活了'));
+            });
+            $('#removeClass').click(function () {
+                console.log($('#btn').removeClass('尼玛死了'));
+            });
+            $('#toggleClass').click(function () {
+                console.log($('#btn').toggleClass());
+            });
+            $('#hasClass').click(function () {
+                console.log($('#btn').hasClass('尼玛死了'));
+            });
+        })
+    </script>
+</head>
+<body>
+<input id="btn" type="button" value="点我"/>
+<form>
+    <fieldset>
+        <legend>属性操作</legend>
+        <input type="button" value="获取属性值" id="getAttr"/>
+        <input type="button" value="设置属性值" id="setAttr"/>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>CSS 操作</legend>
+        <input type="button" value="添加CSS" id="addClass"/>
+        <input type="button" value="删除CSS" id="removeClass"/>
+        <input type="button" value="轮换CSS" id="toggleClass"/>
+        <input type="button" value="判断CSS" id="hasClass"/>
+    </fieldset>
+</form>
+<input type="checkbox" value="1" checked name="gender" id="gender" dataoption='{"name" : "蒋干"}'
+       style="color: red; background: aqua" class="myBtn other" > 男
+</body>
+</html>

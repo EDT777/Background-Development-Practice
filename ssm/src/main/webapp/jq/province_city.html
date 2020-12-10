@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级联动</title>
+    <script src="../static/js/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function () {
+            var $p = $('#p');
+            var $c = $('#c');
+            $.get('/provinces',function (data) {
+                data.forEach(function (ele) {
+                    console.log(ele.id,ele.name);
+                    $p.append('<option value="'+ele.id+'">'+ele.name+'</option>')
+                });
+            });
+        //    给省份绑定事件
+            $p.change(function () {
+                //获取选中省份id值
+                var pid = $(this).val();
+
+                $c.empty();//删除所有子节点及内容
+                $c.append('<option value="-1">请选择</option>');//再加上一个子节点
+                if (pid>=1){
+                    $.get('/cities','pid='+pid,function (data) {//传递省份id 获取城市数据
+                        data.forEach(function (ele) {//给城市下拉框加上数据
+                            $c.append('<option value="'+ele.id+'">'+ele.name+'</option>')
+                        });
+                    })
+                }
+
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+省份<select id="p">
+    <option value="-1">请选择</option>
+</select>
+城市<select id="c">
+    <option value="-1">请选择</option>
+</select>
+</body>
+</html>

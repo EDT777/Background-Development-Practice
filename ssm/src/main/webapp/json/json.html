@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON</title>
+    <script type>
+        // id 1 name 张三 age 18
+        var json = '{"id":1,"name":"张三","age":18}'
+        // id 1 name 张三 age 18,id 2 name 李四 age 19
+        var json2 = '[{"id":1,"name":"张三","age":18},{"id":2,"name":"李四","age":19}]'
+        //    id 1 name 张三 age 员工 id 1 name 开发部
+        var json3 = '{"id":1,"name":"张三","age":18,"dept":{"id":1,"name":"开发部"}}'
+
+        //json工具类  JSON.pares     JSON.stringfy
+
+        console.log(json);
+        //json 祖父擦混转成js对象, 取json字符串中数据更方便
+        console.log(JSON.parse(json).age);
+
+        //JS对象 转成JSON 字符串
+        var jsObj = {id: 1, name: "张三", age: 15, hobbies: ["看球", "打球"]};
+        console.log(JSON.stringify(jsObj));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
