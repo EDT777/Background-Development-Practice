@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.wolfcode.mapper.SystemDictionaryItemMapper" >
+  <resultMap id="BaseResultMap" type="cn.wolfcode.domain.SystemDictionaryItem" >
+    <id column="id" property="id" />
+    <result column="title" property="title" />
+    <result column="sequence" property="sequence" />
+    <result column="type_id" property="type.id" />
+    <result column="p_id" property="parent.id" />
+    <result column="p_title" property="parent.title" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" >
+    delete from system_dictionary_item
+    where id = #{id}
+  </delete>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id" >
+    insert into system_dictionary_item (title, sequence, type_id, parent_id)
+    values (#{title}, #{sequence}, #{type.id}, #{parent.id})
+  </insert>
+  <update id="updateByPrimaryKey" >
+    update system_dictionary_item
+    set title = #{title},
+      sequence = #{sequence},
+      type_id = #{type.id},
+      parent_id = #{parent.id}
+    where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+    select id, title, sequence, type_id, parent_id
+    from system_dictionary_item
+    where id = #{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, title, sequence, type_id, parent_id
+    from system_dictionary_item
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    SELECT
+    sdi.id,
+    sdi.title,
+    sdi.sequence,
+    sdi.type_id,
+    sdi.parent_id as p_id ,p.title as p_title
+    FROM
+    system_dictionary_item sdi
+    left join system_dictionary_item p on sdi.parent_id = p.id
+    <where>
+      <if test="typeId!=null">
+        and sdi.type_id = #{typeId}
+      </if>
+      <if test="parentId!=null">
+        and sdi.parent_id = #{parentId}
+      </if>
+    </where>
+  </select>
+    <select id="selectByTypeId" resultType="cn.wolfcode.domain.SystemDictionaryItem">
+      select id, title, sequence, type_id, parent_id
+      from system_dictionary_item where type_id = #{typeId}
+    </select>
+    <select id="selectByTypeSn" resultType="cn.wolfcode.domain.SystemDictionaryItem">
+      select sdi.id,sdi.title from system_dictionary_item sdi
+      left join system_dictionary sd on sdi.type_id = sd.id
+      where sd.sn = #{sn}
+    </select>
+    <select id="selectByParentId" resultType="cn.wolfcode.domain.SystemDictionaryItem">
+      select id, title, sequence, type_id, parent_id
+      from system_dictionary_item where parent_id = #{id}
+    </select>
+</mapper>

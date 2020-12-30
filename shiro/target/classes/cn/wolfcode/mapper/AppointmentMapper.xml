@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.wolfcode.mapper.AppointmentMapper" >
+  <resultMap id="BaseResultMap" type="cn.wolfcode.domain.Appointment" >
+    <id column="id" property="id" />
+    <result column="ano" property="ano" />
+    <result column="status" property="status" />
+    <result column="info" property="info" />
+    <result column="contact_tel" property="contactTel" />
+    <result column="contact_name" property="contactName" />
+    <result column="sdi_id" property="category.id" />
+    <result column="sdi_title" property="category.title" />
+    <result column="b_id" property="business.id" />
+    <result column="b_name" property="business.name" />
+    <result column="create_time" property="createTime" />
+    <result column="appointment_time" property="appointmentTime" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" >
+    delete from appointment
+    where id = #{id}
+  </delete>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id" >
+    insert into appointment (ano, status, category_id, info, contact_tel, contact_name, 
+      business_id, create_time, appointment_time)
+    values (#{ano}, #{status}, #{category.id}, #{info}, #{contactTel}, #{contactName}, 
+      #{business.id}, #{createTime}, #{appointmentTime})
+  </insert>
+  <update id="updateByPrimaryKey" >
+    update appointment
+    set ano = #{ano},
+      category_id = #{category.id},
+      info = #{info},
+      contact_tel = #{contactTel},
+      contact_name = #{contactName},
+      business_id = #{business.id},
+      appointment_time = #{appointmentTime}
+    where id = #{id}
+  </update>
+  <update id="updateStatus">
+    update appointment set status = #{status} where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+    select id, ano, status, category_id, info, contact_tel, contact_name, business_id, 
+    create_time, appointment_time
+    from appointment
+    where id = #{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, ano, status, category_id, info, contact_tel, contact_name, business_id, 
+    create_time, appointment_time
+    from appointment
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    SELECT
+    a.id,
+    a.ano,
+    a. STATUS,
+    a.category_id as sdi_id,
+    a.info,
+    a.contact_tel,
+    a.contact_name,
+    a.business_id,
+    a.create_time,
+    a.appointment_time, sdi.title as sdi_title ,b.name as b_name
+    FROM
+    appointment a left join system_dictionary_item sdi on a.category_id = sdi.id
+    LEFT JOIN business b on a.business_id = b.id
+  </select>
+    <select id="selectByAppointmentAno" resultMap="BaseResultMap">
+      select id, ano, status, category_id, info, contact_tel, contact_name, business_id as b_id,
+      create_time, appointment_time
+      from appointment where ano = #{ano}
+    </select>
+</mapper>

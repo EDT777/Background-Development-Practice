@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.wolfcode.mapper.ConsumptionMapper" >
+  <resultMap id="BaseResultMap" type="cn.wolfcode.domain.Consumption" >
+    <id column="id" property="id" />
+    <result column="cno" property="cno" />
+    <result column="status" property="status" />
+    <result column="total_amount" property="totalAmount" />
+    <result column="pay_amount" property="payAmount" />
+    <result column="discount_amount" property="discountAmount" />
+    <result column="info" property="info" />
+    <result column="pay_time" property="payTime" />
+    <result column="customer_name" property="customerName" />
+    <result column="customer_tel" property="customerTel" />
+    <result column="car_licence" property="carLicence" />
+    <result column="car_type" property="carType" />
+    <result column="appointment_ano" property="appointmentAno" />
+    <result column="checkin_time" property="checkinTime" />
+    <result column="checkout_time" property="checkoutTime" />
+    <result column="create_time" property="createTime" />
+    <result column="cu_id" property="createUser.id" />
+    <result column="cu_name" property="createUser.name" />
+    <result column="audit_time" property="auditTime" />
+    <result column="a_id" property="auditor.id" />
+    <result column="a_name" property="auditor.name" />
+    <result column="e_id" property="payee.id" />
+    <result column="e_name" property="payee.name" />
+    <result column="b_id" property="business.id" />
+    <result column="b_name" property="business.name" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" >
+    delete from consumption
+    where id = #{id}
+  </delete>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id" >
+    insert into consumption (cno, status, total_amount, pay_amount, discount_amount, info, 
+      pay_time, payee_id, customer_name, customer_tel, car_licence, car_type, 
+      appointment_ano, checkin_time, checkout_time, business_id, create_time, 
+      create_user_id, audit_time, auditor_id)
+    values (#{cno}, #{status}, #{totalAmount}, #{payAmount}, #{discountAmount}, #{info}, 
+      #{payTime}, #{payee.id}, #{customerName}, #{customerTel}, #{carLicence}, #{carType}, 
+      #{appointmentAno}, #{checkinTime}, #{checkoutTime}, #{business.id}, #{createTime}, 
+      #{createUser.id}, #{auditTime}, #{auditor.id})
+  </insert>
+  <update id="updateByPrimaryKey" >
+    update consumption
+    set
+      total_amount = #{totalAmount},
+      pay_amount = #{payAmount},
+      discount_amount = #{discountAmount},
+      info = #{info},
+      customer_name = #{customerName},
+      customer_tel = #{customerTel},
+      car_licence = #{carLicence},
+      car_type = #{carType},
+      checkin_time = #{checkinTime},
+      checkout_time = #{checkoutTime},
+      business_id = #{business.id}
+    where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+    SELECT
+    c.id,
+    c.cno,
+    c.STATUS,
+    c.total_amount,
+    c.pay_amount,
+    c.discount_amount,
+    c.info,
+    c.pay_time,
+    c.payee_id as e_id,
+    c.customer_name,
+    c.customer_tel,
+    c.car_licence,
+    c.car_type,
+    c.appointment_ano,
+    c.checkin_time,
+    c.checkout_time,
+    c.business_id as b_id,
+    c.create_time,
+    c.create_user_id,
+    c.audit_time,
+    c.auditor_id as a_id,e.name as e_name , a.name as a_name ,cu.name as cu_name
+    FROM
+    consumption c
+    LEFT JOIN employee e on e.id = c.payee_id
+    LEFT JOIN employee a on a.id = c.auditor_id
+    LEFT JOIN employee cu on cu.id = c.create_user_id
+    WHERE
+    c.id = #{id}
+
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, cno, status, total_amount, pay_amount, discount_amount, info, pay_time, 
+    payee_id, customer_name, customer_tel, car_licence, car_type, appointment_ano, checkin_time, 
+    checkout_time, business_id, create_time, create_user_id, audit_time, auditor_id
+    from consumption
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    SELECT
+    c.id,
+    c.cno,
+    c.STATUS,
+    c.total_amount,
+    c.pay_amount,
+    c.discount_amount,
+    c.pay_time,
+    c.payee_id as e_id,
+    c.customer_name,
+    c.customer_tel,
+    c.appointment_ano,
+    c.business_id as b_id,e.name as e_name , b.name as b_name
+    FROM
+    consumption c left join employee e on c.payee_id = e.id
+    left join business b on c.business_id = b.id
+
+  </select>
+</mapper>

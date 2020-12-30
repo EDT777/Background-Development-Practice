@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!-- 扫描-->
+    <context:component-scan base-package="cn.wolfcode.shiro"/>
+
+    <!--shiro部分-->
+<!--    构建一个安全管理器 org.apache.shiro.mgt.DefaultWebSecurityManager-->
+<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+    <property name="realm" ref="myRealm"/>
+    <!--注册缓存管理器-->
+    <property name="cacheManager" ref="cacheManager"/>
+ </bean>
+
+<!--    真正处理拦截功能的bean-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+            <property name="securityManager" ref="securityManager"/>
+<!--     没有登录的情况会自动跳转到login.jsp,loginUrl 可以重新指定路径-->
+        <property name="loginUrl" value="/login.html"/>
+        <!--        定义不同的路径交给不同过滤器处理-->
+        <property name="filterChainDefinitions">
+            <value>
+                /userLogout=logout  <!-- 将此访问路径直接变成注销效果 -->
+                /upload/**=authc
+                /userLogin=anon
+                /index=anon
+                /css/**=anon
+                /img/**=anon
+                /js/**=anon
+                /**=authc
+            </value>
+        </property>
+
+    </bean>
+    <!-- <aop:config/> 会扫描配置文件中的所有advisor，并为其创建代理 -->
+    <aop:config />
+    <!-- Pointcut advisor通知器， 会匹配所有加了shiro权限注解的方法 -->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <!-- 缓存管理器 -->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <!-- 设置配置文件 -->
+        <property name="cacheManagerConfigFile" value="classpath:shiro-ehcache.xml"/>
+    </bean>
+</beans>
