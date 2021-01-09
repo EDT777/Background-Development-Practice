@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>员工列表</title>
+    <script src="../../js/JQuery/jquery.js"></script>
+    <script src="../../js/JQuery/jquery.form.js"></script>
+    <script src="../../js/vue/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+   <form id="formId"  >
+       <input type="hidden" name="id" v-model="emp.id"/>
+      名称: <input type="text" name="name" v-model="emp.name"/><br>
+       年龄:<input type="text" name="age" v-model="emp.age"> <br>
+       <input type="button" id="btn" @click="submitForm()" value="新增/修改"/>
+   </form>
+</div>
+<script>
+
+
+    //获取url上的请求参数
+    function getParams() {
+        //获取问号及问号后面的内容
+        var url = window.location.search;
+        var params = new Object();
+        if (url.indexOf("?") != -1) {
+            //截取问号后面的内容,再使用&分割多个属性
+            var arr = url.substr(1).split("&");
+            for (var i = 0; i < arr.length; i++) {
+                //使用=分割为keyvalue
+                var keyValue = arr[i].split("=");
+                params[keyValue[0]] = keyValue[1];
+            }
+        }
+        return params;
+    }
+
+
+
+    var vue = new Vue({
+        el:"#app",
+        data:{
+                emp:{}
+        },
+       methods:{
+            submitForm:function () {
+            //提交表单 :
+            //    异步提交表单:可以根据返回值决定后续操作
+            //    同步提交表单:直接在当前页面显示返回来的值
+
+                $('#formId').ajaxSubmit({
+                    url:"http://localhost:80/emps/saveOrUpdate",
+                    type:"POST",
+                    success:function (data) {
+                    //访问成功做什么
+                        console.log(data);
+                        if (data.success){
+                        //    成功
+                            window.location.href="list.html";
+                        }else {
+                        //    失败
+                            alert(data.msg);
+                        }
+                    }
+                })
+            }
+       },mounted:function () {
+        //获取员工id,异步查询员工信息
+            var id = getParams().id;
+            console.log(id)
+            var _this = this;
+            $.get("http://localhost:80/emps/detail",{id:id},function (data) {
+                console.log(data)
+                _this.emp = data;
+                console.log(_this.emp)
+            })
+        }
+    });
+</script>
+</body>
+</html>

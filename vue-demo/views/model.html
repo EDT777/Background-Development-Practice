@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-model="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+<!--    v-bind:单向数据绑定,数据改动之后,vue实例里面的data数据不跟随变动-->
+  v-bind: <input type="text" name="username" v-bind:value="username"><br/>
+    <!--    v-bind:双向数据绑定,数据改动之后,vue实例里面的data数据跟随变动-->
+    v-model: <input type="text" name="username" v-model:value="username"><br/>
+</div>
+
+<script>
+    var app = new Vue({
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+            username:"tzh"
+        }
+    })
+</script>
+
+</body>
+</html>

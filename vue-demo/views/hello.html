@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+    {{ message }}
+</div>
+
+<script>
+    var app = new Vue({
+
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+            message: 'Hello Vue!'
+        }
+
+    })
+</script>
+
+</body>
+</html>

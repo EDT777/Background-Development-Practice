@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+    <ul>
+        <li v-for="item in arr">{{item}}</li>
+    </ul>
+    <ul>
+        <!--        (迭代元素,索引) in 列表  参数位置不可变,名称可以-->
+        <li v-for="(item3,index2) in arr">{{index2}}--{{item3}}</li>
+    </ul>
+    <ul>
+        <!--        (迭代元素,索引) in 列表  参数位置不可变,名称可以-->
+        <li v-for="e in emps">{{e.id}}-{{e.name}}</li>
+    </ul>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+            arr:["aa","bb","cc","dd"],
+            emps:[
+                {id:1,name:"tzh",sex:1,age:18},
+                {id:2,name:"edt",sex:0,age:12},
+                {id:3,name:"aka",sex:1,age:33}
+            ]
+        }
+    })
+</script>
+
+</body>
+</html>

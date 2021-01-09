@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+<!--有age变量,如果age>18 显示欢迎光临,age<18 显示18禁,如果age=18,请家长陪同观看-->
+
+    <span v-if="age > 18">欢迎光临</span>
+    <span v-else-if="age < 18">18禁</span>
+    <span v-else>请家长陪同观看</span>
+</div>
+
+<script>
+    var app = new Vue({
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+           age:19
+        }
+    })
+</script>
+
+</body>
+</html>

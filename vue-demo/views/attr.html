@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+    <ul>
+        <li v-for="e in emps" @click="clickMeVue(e)">
+            {{e.id}}-{{e.name}}-{{e.sex | sexFormat}} - {{e.age}}
+        </li>
+    </ul>
+</div>
+
+<script>
+    var app = new Vue({
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+            emps:[
+
+            ]
+        },
+        methods:{//vue实例方法
+            clickMeVue:function (emp) {
+                console.log(emp.id,emp.name);//事件源
+            }
+        },
+        filters:{
+            //性别格式化
+            sexFormat:function (value) {
+                if (value==0){
+                    return "女";
+                }else if (value==1){
+                    return "男";
+                }else {
+                    return "保密"
+                }
+            }
+        },
+        mounted:function () {
+        //mouthed vue 实例创建成功,并完成初步初始化(data数据刚设置好默认值,html模板渲染结束)
+        //    有点类似于 spring刚完成ioc 还没开始进行di
+        //    改方法一般执行数据吃实话
+
+            //假设通过异步请求获取到数据
+            var es=[
+                {id:1,name:"tzh",sex:1,age:18},
+                {id:2,name:"edt",sex:0,age:12},
+                {id:3,name:"aka",sex:1,age:33}
+            ]
+            //mounted方法里面的this表示当前构建vue对象
+            this.emps=es;
+            console.log("-----------------------------------------------------")
+        }
+    })
+</script>
+
+</body>
+</html>

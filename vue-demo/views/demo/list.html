@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>员工列表</title>
+    <script src="../../js/JQuery/jquery.js"></script>
+    <script src="../../js/vue/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <a href="input.html">新增</a>
+员工列表:
+<ul>
+    <li v-for="e in emps" >
+        {{e.id}}-{{e.name}}-{{e.age}} -----<a :href="'input.html?id='+e.id">编辑</a>
+    </li>
+</ul>
+</div>
+<script>
+    var vue = new Vue({
+            el:"#app",
+            data:{
+                emps:[
+
+                ]
+            },
+            mounted:function () {
+                var _this = this;
+            //        发起异步请求
+                $.get("http://localhost:80/emps/list",{},function (data) {
+                 _this.emps=data;
+                })
+            }
+        });
+</script>
+</body>
+</html>

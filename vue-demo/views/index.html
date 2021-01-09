@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.js"></script>
+</head>
+<body>
+<!--页面模板-->
+<div id="app">
+
+    <div>
+        {{ msg }}
+    </div>
+<!--将属性解析成html格式,然后渲染出来-->
+<div v-html="msg"/>
+
+
+</div>
+
+<script>
+    var app = new Vue({
+        el: '#app', //获取页面模板
+        data: {//vue 渲染模板时候需要数据
+            msg: "<span style='color: red;'>这是html</span>"
+        }
+    })
+</script>
+
+</body>
+</html>
