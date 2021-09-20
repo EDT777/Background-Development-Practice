@@ -45,7 +45,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-            <shiro.version>1.5.2</shiro.version>
+            <shiro.version>1.8.0</shiro.version>
     </properties>
     <dependencies>
         <!--        jsp页面标签-->
