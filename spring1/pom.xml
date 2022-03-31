@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.1.14.RELEASE</version>
+			<version>5.3.18</version>
 		</dependency>
 		<!-- springmvc处理复杂json的依赖 -->
 		<dependency>
